@@ -19,6 +19,10 @@
 
 .home p span {
     font-family: 'Averia Serif Libre', cursive;
-    color: darkolivegreen;
     cursor: crosshair;
+
+    &:hover,
+    &:focus {
+        color: darkolivegreen;
+    }
 }

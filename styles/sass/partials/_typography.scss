@@ -15,6 +15,13 @@ h2 {
     font-size: 1.9rem;
 }
 
+.skills h2,
+.contact h2 {
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid black;
+}
+
 p {
     letter-spacing: .5px;
     font-size: 1.2rem;

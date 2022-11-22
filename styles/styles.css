@@ -314,6 +314,15 @@ body {
           text-decoration: 2px solid underline;
 }
 
+footer p {
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 10px;
+}
+footer p span {
+  font-style: italic;
+}
+
 html {
   font-size: 125%;
   font-family: "EB Garamond", serif;
@@ -328,6 +337,13 @@ h1 {
 h2 {
   font-family: "Averia Serif Libre", cursive;
   font-size: 1.9rem;
+}
+
+.skills h2,
+.contact h2 {
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+  border-bottom: 3px solid black;
 }
 
 p {
@@ -370,19 +386,15 @@ p {
 
 .home p span {
   font-family: "Averia Serif Libre", cursive;
-  color: darkolivegreen;
   cursor: crosshair;
+}
+.home p span:hover, .home p span:focus {
+  color: darkolivegreen;
 }
 
 .skills {
   margin-top: 100px;
   margin-bottom: 100px;
-}
-.skills h2 {
-  margin-bottom: 50px;
-  text-align: justify;
-  padding-bottom: 20px;
-  border-bottom: 3px solid black;
 }
 
 .skills ul {
@@ -396,7 +408,7 @@ p {
       flex-wrap: wrap;
 }
 .skills ul li {
-  margin: 40px 20px;
+  margin: 30px 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -412,9 +424,8 @@ p {
   width: calc(20% - 40px);
 }
 .skills ul p {
-  display: none;
   font-family: "Averia Serif Libre", cursive;
-  margin-top: 5px;
+  margin-top: 8px;
   color: black;
   font-size: 0.8rem;
   text-align: center;
@@ -422,15 +433,10 @@ p {
 .skills ul span {
   display: block;
 }
-
-li:hover,
-li:focus {
+.skills ul li:hover,
+.skills ul li:focus {
   color: darkolivegreen;
   cursor: crosshair;
-}
-li:hover p,
-li:focus p {
-  display: block;
 }
 
 @media (max-width: 700px) {
@@ -449,10 +455,5 @@ li:focus p {
 @media (max-width: 560px) {
   .skills ul li {
     width: calc(50% - 40px);
-  }
-}
-@media (max-width: 370px) {
-  .skills h2 span {
-    display: block;
   }
 }
