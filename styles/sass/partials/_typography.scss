@@ -1,0 +1,28 @@
+html {
+    font-size: 125%;
+    font-family: 'EB Garamond', serif;
+}
+
+// HEADER
+h1 {
+    font-size: 3rem;
+    font-family: 'Averia Serif Libre', cursive;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Averia Serif Libre', cursive;
+    font-size: 1.9rem;
+}
+
+p {
+    letter-spacing: .5px;
+    font-size: 1.2rem;
+}
+
+// NAV
+
+.navUl a {
+    font-family: 'Averia Serif Libre', cursive;
+    text-transform: lowercase;
+}
