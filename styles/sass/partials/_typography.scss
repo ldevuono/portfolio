@@ -3,16 +3,17 @@ html {
     font-family: 'EB Garamond', serif;
 }
 
-// HEADER
 h1 {
     font-size: 3rem;
     font-family: 'Averia Serif Libre', cursive;
     text-transform: uppercase;
+    transition: .3s ease;
 }
 
 h2 {
     font-family: 'Averia Serif Libre', cursive;
     font-size: 1.9rem;
+    transition: .3s ease;
 }
 
 .skills h2,

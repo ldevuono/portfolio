@@ -332,11 +332,15 @@ h1 {
   font-size: 3rem;
   font-family: "Averia Serif Libre", cursive;
   text-transform: uppercase;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 h2 {
   font-family: "Averia Serif Libre", cursive;
   font-size: 1.9rem;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 .skills h2,
@@ -376,12 +380,6 @@ p {
 }
 .introFlex h1 {
   margin-top: 10%;
-  -webkit-transition: 0.3s ease;
-  transition: 0.3s ease;
-}
-.introFlex h2 {
-  -webkit-transition: 0.3s ease;
-  transition: 0.3s ease;
 }
 
 .home p {
@@ -448,6 +446,9 @@ p {
   }
   .introFlex h1 span {
     display: block;
+  }
+  h2 {
+    font-size: 1.8rem;
   }
 }
 @media (max-width: 900px) {
