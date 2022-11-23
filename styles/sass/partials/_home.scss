@@ -17,12 +17,16 @@
     }
 }
 
-.home p span {
-    font-family: 'Averia Serif Libre', cursive;
-    cursor: crosshair;
+.home p {
+    margin-bottom: 8px;
 
-    &:hover,
-    &:focus {
-        color: darkolivegreen;
+    span {
+        font-family: 'Averia Serif Libre', cursive;
+        cursor: crosshair;
+
+        &:hover,
+        &:focus {
+            color: darkolivegreen;
+        }
     }
 }
