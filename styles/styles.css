@@ -352,7 +352,6 @@ h2 {
 
 p {
   letter-spacing: 0.5px;
-  font-size: 1.2rem;
 }
 
 .navUl a {
@@ -360,7 +359,7 @@ p {
   text-transform: lowercase;
 }
 
-.introFlex {
+.introText {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -378,8 +377,22 @@ p {
   border-bottom: 3px solid black;
   margin-bottom: 20px;
 }
-.introFlex h1 {
+.introText h1 {
   margin-top: 10%;
+}
+
+.introFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.introFlex .introImg {
+  width: 25%;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+.introFlex .introText {
+  width: 75%;
 }
 
 .home p {
@@ -440,15 +453,9 @@ p {
   cursor: crosshair;
 }
 
-@media (max-width: 700px) {
-  .introFlex h1 {
-    font-size: 2.5rem;
-  }
-  .introFlex h1 span {
+@media (max-width: 950px) {
+  .introText span {
     display: block;
-  }
-  h2 {
-    font-size: 1.8rem;
   }
 }
 @media (max-width: 900px) {
@@ -456,7 +463,27 @@ p {
     width: calc(33.3333333333% - 40px);
   }
 }
+@media (max-width: 700px) {
+  .introText h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+}
 @media (max-width: 560px) {
+  .introFlex .introImg {
+    display: none;
+  }
+  .introFlex .introText {
+    width: 100%;
+  }
+  .introText h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
   .skills ul li {
     width: calc(50% - 40px);
   }

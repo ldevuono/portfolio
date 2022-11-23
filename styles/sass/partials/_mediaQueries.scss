@@ -1,11 +1,24 @@
+@media (max-width:950px) {
+    .introText {
+        span {
+            display: block;
+        }
+    }
+
+}
+
+@media (max-width:900px) {
+    .skills ul {
+        li {
+            width: calc((100%/3) - 40px);
+        }
+    }
+}
+
 @media (max-width:700px) {
-    .introFlex {
+    .introText {
         h1 {
             font-size: 2.5rem;
-
-            span {
-                display: block;
-            }
         }
     }
 
@@ -19,15 +32,29 @@
 
 }
 
-@media (max-width:900px) {
-    .skills ul {
-        li {
-            width: calc((100%/3) - 40px);
+@media (max-width:560px) {
+
+    .introFlex {
+        .introImg {
+            display: none;
+        }
+
+        .introText {
+            width: 100%;
         }
     }
-}
 
-@media (max-width:560px) {
+    .introText {
+        h1 {
+            font-size: 2rem;
+        }
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+
     .skills ul {
         li {
             width: calc((100%/2) - 40px);
