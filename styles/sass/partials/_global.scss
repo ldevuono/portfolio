@@ -41,6 +41,7 @@ body {
 .navUl {
     display: flex;
     justify-content: flex-end;
+    transition: .3s ease;
 
     li {
         margin: 20px;

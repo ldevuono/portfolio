@@ -4,7 +4,6 @@
             display: block;
         }
     }
-
 }
 
 @media (max-width:900px) {
@@ -16,6 +15,10 @@
 }
 
 @media (max-width:700px) {
+    .navUl {
+        justify-content: center;
+    }
+
     .introText {
         h1 {
             font-size: 2.5rem;
@@ -26,17 +29,15 @@
         font-size: 1.8rem;
     }
 
-    // .navUl {
-    //     display: none;
-    // }
-
 }
 
-@media (max-width:560px) {
-
+@media (max-width:570px) {
     .introFlex {
+        position: relative;
+
         .introImg {
-            display: none;
+            position: absolute;
+            right: -20px;
         }
 
         .introText {
@@ -58,6 +59,19 @@
     .skills ul {
         li {
             width: calc((100%/2) - 40px);
+        }
+    }
+}
+
+@media (max-width:450px) {
+    .navUl {
+        display: none;
+    }
+
+    .introFlex {
+
+        .introImg {
+            display: none;
         }
     }
 }
