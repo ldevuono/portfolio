@@ -41,7 +41,14 @@ body {
 .navUl {
     display: flex;
     justify-content: flex-end;
-    transition: .3s ease;
+    // for hamburger menu
+    position: fixed;
+    transition: transform 0.3s ease;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding-right: 1.5rem;
 
     li {
         margin: 20px;
@@ -53,11 +60,34 @@ body {
     }
 }
 
+// hamburger button
+.hamburger {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    top: 1rem;
+    right: 1rem;
+
+    .closeIcon {
+        display: none;
+    }
+}
+
+
 //FOOTER STYLES
+
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
 footer p {
     font-size: .8rem;
     text-align: center;
     padding: 10px;
+
 
     span {
         font-style: italic;

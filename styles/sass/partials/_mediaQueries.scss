@@ -1,4 +1,6 @@
 @media (max-width:950px) {
+
+    // bio
     .introText {
         span {
             display: block;
@@ -7,37 +9,57 @@
 }
 
 @media (max-width:900px) {
+
+    //hamburger menu
+    .hamburger {
+        display: block;
+    }
+
+    .navUl {
+        transform: translateY(-100%);
+    }
+
+    .showMenu {
+        transform: translateY(0);
+    }
+
+    // skills
     .skills ul {
         li {
             width: calc((100%/3) - 40px);
         }
     }
+
+    // footer
+    footer {
+        position: static;
+    }
 }
 
 @media (max-width:700px) {
-    .navUl {
-        justify-content: center;
-    }
 
+    // bio
     .introText {
         h1 {
             font-size: 2.5rem;
+            margin-top: 20%;
+        }
+
+        h2 {
+            font-size: 1rem;
         }
     }
-
-    h2 {
-        font-size: 1.8rem;
-    }
-
 }
 
 @media (max-width:570px) {
+
+    // bio
     .introFlex {
         position: relative;
 
         .introImg {
             position: absolute;
-            right: -20px;
+            right: -30px;
         }
 
         .introText {
@@ -49,13 +71,13 @@
         h1 {
             font-size: 2rem;
         }
+
+        h2 {
+            font-size: 1rem;
+        }
     }
 
-    h2 {
-        font-size: 1rem;
-    }
-
-
+    // skills
     .skills ul {
         li {
             width: calc((100%/2) - 40px);
@@ -64,14 +86,21 @@
 }
 
 @media (max-width:450px) {
-    .navUl {
-        display: none;
-    }
 
+    // bio
     .introFlex {
-
         .introImg {
             display: none;
         }
+    }
+
+    //nav 
+    .navUl {
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-start;
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+        z-index: 100;
     }
 }
