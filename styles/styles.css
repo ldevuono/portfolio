@@ -538,9 +538,6 @@ p {
   .skills ul li {
     width: calc(33.3333333333% - 40px);
   }
-  footer {
-    position: static;
-  }
 }
 @media (max-width: 700px) {
   .introText h1 {
