@@ -1,3 +1,32 @@
 .contact {
     margin-top: 70px;
+
+    a {
+        text-decoration: 2px solid underline;
+        transition: .3s ease;
+    }
+
+    a:hover,
+    a:focus {
+        text-decoration: none;
+        color: darkolivegreen;
+    }
+}
+
+.contactMe {
+    display: flex;
+
+    li {
+        margin: 20px;
+
+        a {
+            transition: .3s ease;
+        }
+
+        a:hover,
+        a:focus {
+            color: darkolivegreen;
+            cursor: pointer;
+        }
+    }
 }

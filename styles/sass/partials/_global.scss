@@ -42,13 +42,12 @@ body {
     display: flex;
     justify-content: flex-end;
     // for hamburger menu
-    position: fixed;
     transition: transform 0.3s ease;
     top: 0;
     bottom: 0;
     right: 0;
     left: 0;
-    padding-right: 60px;
+    padding-right: 10px;
 
     li {
         margin: 20px;
@@ -67,6 +66,7 @@ body {
     z-index: 100;
     top: 1rem;
     right: 1rem;
+    cursor: pointer;
 
     .closeIcon {
         display: none;
