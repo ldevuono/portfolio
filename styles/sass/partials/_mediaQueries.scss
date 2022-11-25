@@ -17,6 +17,8 @@
 
     .navUl {
         transform: translateY(-100%);
+        position: fixed;
+        padding-right: 35px;
     }
 
     .showMenu {
