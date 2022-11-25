@@ -41,12 +41,6 @@ body {
 .navUl {
     display: flex;
     justify-content: flex-end;
-    // for hamburger menu
-    transition: transform 0.3s ease;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
 
     li {
         margin: 20px;
