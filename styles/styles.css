@@ -326,15 +326,6 @@ body {
   display: none;
 }
 
-.contactFooter,
-.homeFooter,
-.projectsFooter {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  left: 0;
-}
-
 footer p {
   font-size: 0.8rem;
   text-align: center;
@@ -430,6 +421,10 @@ p {
   color: firebrick;
 }
 
+.bio {
+  padding-bottom: 200px;
+}
+
 .skills {
   margin-top: 70px;
   margin-bottom: 100px;
@@ -479,6 +474,7 @@ p {
 
 .contact {
   margin-top: 70px;
+  padding-bottom: 250px;
 }
 .contact a {
   -webkit-text-decoration: 2px solid underline;
