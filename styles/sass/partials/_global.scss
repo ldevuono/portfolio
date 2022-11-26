@@ -37,20 +37,34 @@ body {
     background-color: rgb(217, 152, 162);
 }
 
+//DARK MODE
+.darkMode {
+    background-color: black;
+    color: white;
+}
+
+.lightSwitch {
+    position: absolute;
+    left: 25px;
+    top: 20px;
+}
+
 // NAV STYLES
+
 .navUl {
     display: flex;
     justify-content: flex-end;
+}
 
-    li {
-        margin: 20px;
+li {
+    margin: 20px;
 
-        a:hover,
-        a:focus {
-            text-decoration: 2px solid underline;
-        }
+    a:hover,
+    a:focus {
+        text-decoration: 2px solid underline;
     }
 }
+
 
 // hamburger button
 .hamburger {

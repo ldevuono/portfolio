@@ -297,6 +297,17 @@ body {
   background-color: rgb(217, 152, 162);
 }
 
+.darkMode {
+  background-color: black;
+  color: white;
+}
+
+.lightSwitch {
+  position: absolute;
+  left: 25px;
+  top: 20px;
+}
+
 .navUl {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -305,11 +316,12 @@ body {
       -ms-flex-pack: end;
           justify-content: flex-end;
 }
-.navUl li {
+
+li {
   margin: 20px;
 }
-.navUl li a:hover,
-.navUl li a:focus {
+li a:hover,
+li a:focus {
   -webkit-text-decoration: 2px solid underline;
           text-decoration: 2px solid underline;
 }
@@ -467,7 +479,6 @@ p {
 .skills ul p {
   font-family: "Averia Serif Libre", cursive;
   margin-top: 8px;
-  color: black;
   font-size: 0.8rem;
   text-align: center;
 }
