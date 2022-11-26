@@ -69,12 +69,15 @@ body {
 
 //FOOTER STYLES
 
-footer {
+.contactFooter,
+.homeFooter,
+.projectsFooter {
     position: absolute;
     bottom: 0;
     right: 0;
     left: 0;
 }
+
 
 footer p {
     font-size: .8rem;

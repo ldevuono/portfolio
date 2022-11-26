@@ -9,7 +9,7 @@
     a:hover,
     a:focus {
         text-decoration: none;
-        color: darkolivegreen;
+        color: firebrick;
     }
 }
 
@@ -17,16 +17,20 @@
     display: flex;
 
     li {
-        margin: 20px;
+        margin: 20px 0;
+    }
 
-        a {
-            transition: .3s ease;
-        }
+    li:not(:first-of-type) {
+        margin-left: 20px;
+    }
 
-        a:hover,
-        a:focus {
-            color: darkolivegreen;
-            cursor: pointer;
-        }
+    a {
+        transition: .3s ease;
+    }
+
+    a:hover,
+    a:focus {
+        color: firebrick;
+        cursor: pointer;
     }
 }

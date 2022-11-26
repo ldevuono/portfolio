@@ -326,7 +326,9 @@ body {
   display: none;
 }
 
-footer {
+.contactFooter,
+.homeFooter,
+.projectsFooter {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -425,7 +427,7 @@ p {
   cursor: crosshair;
 }
 .home p span:hover, .home p span:focus {
-  color: darkolivegreen;
+  color: firebrick;
 }
 
 .skills {
@@ -471,7 +473,7 @@ p {
 }
 .skills ul li:hover,
 .skills ul li:focus {
-  color: darkolivegreen;
+  color: firebrick;
   cursor: crosshair;
 }
 
@@ -487,7 +489,7 @@ p {
 .contact a:hover,
 .contact a:focus {
   text-decoration: none;
-  color: darkolivegreen;
+  color: firebrick;
 }
 
 .contactMe {
@@ -496,15 +498,18 @@ p {
   display: flex;
 }
 .contactMe li {
-  margin: 20px;
+  margin: 20px 0;
 }
-.contactMe li a {
+.contactMe li:not(:first-of-type) {
+  margin-left: 20px;
+}
+.contactMe a {
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
 }
-.contactMe li a:hover,
-.contactMe li a:focus {
-  color: darkolivegreen;
+.contactMe a:hover,
+.contactMe a:focus {
+  color: firebrick;
   cursor: pointer;
 }
 
