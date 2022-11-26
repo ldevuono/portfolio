@@ -64,6 +64,13 @@
             font-size: 1rem;
         }
     }
+
+    // projects
+    .projectsList {
+        li {
+            flex-direction: column;
+        }
+    }
 }
 
 @media (max-width:570px) {

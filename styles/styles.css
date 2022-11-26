@@ -356,7 +356,8 @@ h2 {
 }
 
 .skills h2,
-.contact h2 {
+.contact h2,
+.projects h2 {
   margin-bottom: 50px;
   padding-bottom: 20px;
   border-bottom: 3px solid black;
@@ -472,6 +473,47 @@ p {
   cursor: crosshair;
 }
 
+.projects {
+  margin-top: 70px;
+}
+
+.projectsList img {
+  min-width: 300px;
+  height: 180px;
+  border: 2px solid black;
+}
+.projectsList li {
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+.projectsList .projectImg {
+  margin-right: 30px;
+}
+.projectsList .linksBox {
+  margin-top: 10px;
+}
+.projectsList .linksBox .liveLink {
+  margin-right: 10px;
+}
+.projectsList .linksBox a {
+  -webkit-text-decoration: underline 2px;
+          text-decoration: underline 2px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+.projectsList .linksBox a:hover,
+.projectsList .linksBox a:focus {
+  color: firebrick;
+  text-decoration: none;
+}
+
 .contact {
   margin-top: 70px;
   padding-bottom: 250px;
@@ -562,6 +604,12 @@ p {
   }
   .introText h2 {
     font-size: 1rem;
+  }
+  .projectsList li {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 @media (max-width: 570px) {
