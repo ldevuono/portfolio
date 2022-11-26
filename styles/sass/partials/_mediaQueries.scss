@@ -2,7 +2,7 @@
 
     // bio
     .introText {
-        span {
+        h1 span {
             display: block;
         }
     }
@@ -32,6 +32,12 @@
     }
 }
 
+// bio
+.introText {
+    h2 {
+        font-size: 1.2rem;
+    }
+}
 
 .showMenu {
     transform: translateY(0);
@@ -100,6 +106,16 @@
     .introFlex {
         .introImg {
             display: none;
+        }
+    }
+}
+
+@media (max-width:375px) {
+
+    // bio
+    .introText {
+        h2 span {
+            display: block;
         }
     }
 }

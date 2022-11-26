@@ -509,7 +509,7 @@ p {
 }
 
 @media (max-width: 950px) {
-  .introText span {
+  .introText h1 span {
     display: block;
   }
 }
@@ -541,6 +541,10 @@ p {
     z-index: 100;
   }
 }
+.introText h2 {
+  font-size: 1.2rem;
+}
+
 .showMenu {
   -webkit-transform: translateY(0);
           transform: translateY(0);
@@ -583,5 +587,10 @@ p {
 @media (max-width: 450px) {
   .introFlex .introImg {
     display: none;
+  }
+}
+@media (max-width: 375px) {
+  .introText h2 span {
+    display: block;
   }
 }
