@@ -303,8 +303,8 @@ body {
 }
 
 .lightSwitch {
-  position: absolute;
-  left: 25px;
+  position: fixed;
+  left: 20px;
   top: 20px;
 }
 
