@@ -4,53 +4,56 @@
 
 .projectsList {
     img {
-        border: 2px solid black;
+        border-radius: 25px;
     }
 
     li {
         background-color: rgb(231, 173, 183, .5);
-        width: 70%;
+        border-radius: 30px;
+        width: 80%;
         margin: 20px auto;
         padding: 20px;
         display: flex;
-        flex-direction: column;
         align-items: center;
         transition: .3s ease;
     }
 
     .projectImg {
-        margin-bottom: 10px;
-        width: 300px;
+        margin-right: 30px;
+        width: 350px;
     }
 
     .projectDesc {
-        width: 80%;
+        width: 60%;
         transition: .3s ease;
     }
+}
 
-    .projectsSkills {
-        font-family: 'Averia Serif Libre', cursive;
-        margin-top: 5px;
+.projectsSkills {
+    font-family: 'Averia Serif Libre', cursive;
+    font-size: .9rem;
+    margin-top: 10px;
+}
+
+.linksBox {
+    margin-top: 10px;
+    font-family: 'Averia Serif Libre', cursive;
+    text-align: center;
+
+    .liveLink {
+        margin-right: 10px;
     }
 
-    .linksBox {
-        margin-top: 10px;
-        font-family: 'Averia Serif Libre', cursive;
+    a {
+        display: inline-block;
+        transition: .3s ease;
+        background-color: rgb(217, 152, 162);
+        padding: 5px 8px;
+        border-radius: 10px;
+    }
 
-        .liveLink {
-            margin-right: 10px;
-        }
-
-        a {
-            display: inline-block;
-            transition: .3s ease;
-            background-color: rgb(217, 152, 162);
-            padding: 5px 8px;
-        }
-
-        a:hover,
-        a:focus {
-            background-color: pink;
-        }
+    a:hover,
+    a:focus {
+        background-color: pink;
     }
 }

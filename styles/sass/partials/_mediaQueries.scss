@@ -73,12 +73,22 @@
 
     // projects
     .projectsList {
+        li {
+            flex-direction: column;
+        }
+
         .projectImg {
             width: 250px;
+            margin-right: 0;
+            margin-bottom: 20px;
         }
 
         .projectDesc {
             width: 100%;
+        }
+
+        .projectsSkills {
+            margin-top: 15px;
         }
     }
 }
@@ -139,8 +149,12 @@
 
     // projects
     .projectsList {
+        li {
+            padding: 10px;
+        }
+
         .projectImg {
-            width: 200px;
+            width: 220px;
         }
     }
 }
