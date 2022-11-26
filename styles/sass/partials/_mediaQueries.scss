@@ -6,6 +6,13 @@
             display: block;
         }
     }
+
+    //projects
+    .projectsList {
+        li {
+            width: 100%;
+        }
+    }
 }
 
 @media (max-width:900px) {
@@ -30,26 +37,25 @@
         color: white;
         z-index: 100;
     }
-}
 
-// bio
-.introText {
-    h2 {
-        font-size: 1.2rem;
+    .showMenu {
+        transform: translateY(0);
+    }
+
+    // bio
+    .introText {
+        h2 {
+            font-size: 1.2rem;
+        }
+    }
+
+    // skills
+    .skills ul {
+        li {
+            width: calc((100%/3) - 40px);
+        }
     }
 }
-
-.showMenu {
-    transform: translateY(0);
-}
-
-// skills
-.skills ul {
-    li {
-        width: calc((100%/3) - 40px);
-    }
-}
-
 
 @media (max-width:700px) {
 
@@ -67,11 +73,16 @@
 
     // projects
     .projectsList {
-        li {
-            flex-direction: column;
+        .projectImg {
+            width: 250px;
+        }
+
+        .projectDesc {
+            width: 100%;
         }
     }
 }
+
 
 @media (max-width:570px) {
 
@@ -123,6 +134,13 @@
     .introText {
         h2 span {
             display: block;
+        }
+    }
+
+    // projects
+    .projectsList {
+        .projectImg {
+            width: 200px;
         }
     }
 }

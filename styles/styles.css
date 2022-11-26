@@ -355,6 +355,13 @@ h2 {
   transition: 0.3s ease;
 }
 
+h3 {
+  font-family: "Averia Serif Libre", cursive;
+  font-size: 1.2rem;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
 .skills h2,
 .contact h2,
 .projects h2 {
@@ -478,15 +485,20 @@ p {
 }
 
 .projectsList img {
-  min-width: 300px;
-  height: 180px;
   border: 2px solid black;
 }
 .projectsList li {
-  margin-bottom: 20px;
+  background-color: rgba(231, 173, 183, 0.5);
+  width: 70%;
+  margin: 20px auto;
+  padding: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -494,24 +506,35 @@ p {
   transition: 0.3s ease;
 }
 .projectsList .projectImg {
-  margin-right: 30px;
+  margin-bottom: 10px;
+  width: 300px;
+}
+.projectsList .projectDesc {
+  width: 80%;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+.projectsList .projectsSkills {
+  font-family: "Averia Serif Libre", cursive;
+  margin-top: 5px;
 }
 .projectsList .linksBox {
   margin-top: 10px;
+  font-family: "Averia Serif Libre", cursive;
 }
 .projectsList .linksBox .liveLink {
   margin-right: 10px;
 }
 .projectsList .linksBox a {
-  -webkit-text-decoration: underline 2px;
-          text-decoration: underline 2px;
+  display: inline-block;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
+  background-color: rgb(217, 152, 162);
+  padding: 5px 8px;
 }
 .projectsList .linksBox a:hover,
 .projectsList .linksBox a:focus {
-  color: firebrick;
-  text-decoration: none;
+  background-color: pink;
 }
 
 .contact {
@@ -555,6 +578,9 @@ p {
   .introText h1 span {
     display: block;
   }
+  .projectsList li {
+    width: 100%;
+  }
 }
 @media (max-width: 900px) {
   .hamburger {
@@ -583,20 +609,17 @@ p {
     color: white;
     z-index: 100;
   }
+  .showMenu {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  .introText h2 {
+    font-size: 1.2rem;
+  }
+  .skills ul li {
+    width: calc(33.3333333333% - 40px);
+  }
 }
-.introText h2 {
-  font-size: 1.2rem;
-}
-
-.showMenu {
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
-}
-
-.skills ul li {
-  width: calc(33.3333333333% - 40px);
-}
-
 @media (max-width: 700px) {
   .introText h1 {
     font-size: 2.5rem;
@@ -605,11 +628,11 @@ p {
   .introText h2 {
     font-size: 1rem;
   }
-  .projectsList li {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+  .projectsList .projectImg {
+    width: 250px;
+  }
+  .projectsList .projectDesc {
+    width: 100%;
   }
 }
 @media (max-width: 570px) {
@@ -641,5 +664,8 @@ p {
 @media (max-width: 375px) {
   .introText h2 span {
     display: block;
+  }
+  .projectsList .projectImg {
+    width: 200px;
   }
 }
