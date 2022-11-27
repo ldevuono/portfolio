@@ -298,7 +298,7 @@ body {
 }
 
 .darkMode {
-  background-image: url("./../assets/nightMode3.png");
+  background-color: rgb(7, 6, 20);
   color: white;
 }
 
@@ -562,7 +562,7 @@ p {
 }
 
 body.darkMode .projectsList li {
-  background-color: rgb(7, 6, 20);
+  background-color: rgba(24, 23, 45, 0.5);
 }
 
 body.darkMode .linksBox {
