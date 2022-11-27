@@ -572,6 +572,13 @@ body.darkMode .projectsList li {
 body.darkMode .linksBox {
   background-color: rgba(7, 6, 20, 0.5);
 }
+body.darkMode .linksBox a {
+  background-color: rgba(7, 6, 20, 0.5);
+}
+body.darkMode .linksBox a:hover,
+body.darkMode .linksBox a:focus {
+  background-color: rgb(7, 6, 20);
+}
 
 .contact {
   margin-top: 70px;

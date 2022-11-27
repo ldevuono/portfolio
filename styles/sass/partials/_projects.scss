@@ -75,4 +75,13 @@ body.darkMode .projectsList li {
 
 body.darkMode .linksBox {
     background-color: rgb(7, 6, 20, .5);
+
+    a {
+        background-color: rgb(7, 6, 20, .5);
+    }
+
+    a:hover,
+    a:focus {
+        background-color: rgb(7, 6, 20);
+    }
 }
