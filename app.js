@@ -1,4 +1,3 @@
-
 // hamburger menu
 // create variables for each element
 const menu = document.querySelector(".menu");
