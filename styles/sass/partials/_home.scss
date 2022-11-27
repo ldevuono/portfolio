@@ -4,7 +4,7 @@
     align-items: flex-start;
     justify-content: center;
     padding-bottom: 20px;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid;
     margin-bottom: 20px;
 
     h1 {
@@ -28,6 +28,10 @@
     }
 }
 
+.cat {
+    display: none;
+}
+
 .home {
     p {
         margin-bottom: 8px;
@@ -35,11 +39,6 @@
         span {
             font-family: 'Averia Serif Libre', cursive;
             cursor: crosshair;
-
-            &:hover,
-            &:focus {
-                color: firebrick;
-            }
         }
     }
 }

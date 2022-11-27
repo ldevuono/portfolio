@@ -9,7 +9,7 @@
     }
 
     li {
-        background-color: rgb(231, 173, 183, .5);
+        background-color: rgba(231, 174, 183, 0.5);
         border-radius: 30px;
         width: 80%;
         margin: 20px auto;
@@ -22,6 +22,7 @@
     .projectImg {
         margin-right: 30px;
         width: 350px;
+        position: relative;
     }
 
     .projectDesc {
@@ -37,9 +38,17 @@
 }
 
 .linksBox {
-    margin-top: 10px;
     font-family: 'Averia Serif Libre', cursive;
     text-align: center;
+    position: absolute;
+    border-radius: 25px;
+    object-position: 4px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-top: 70px;
+    background-color: rgba(208, 172, 178, 0.5);
 
     .liveLink {
         margin-right: 10px;
@@ -48,13 +57,22 @@
     a {
         display: inline-block;
         transition: .3s ease;
-        background-color: rgb(217, 152, 162);
         padding: 5px 8px;
         border-radius: 10px;
+        background-color: rgb(217, 152, 162);
     }
 
     a:hover,
     a:focus {
         background-color: pink;
     }
+}
+
+// dark mode styles
+body.darkMode .projectsList li {
+    background-color: rgb(7, 6, 20);
+}
+
+body.darkMode .linksBox {
+    background-color: rgb(7, 6, 20, .5);
 }

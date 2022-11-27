@@ -39,29 +39,38 @@ body {
 
 //DARK MODE
 .darkMode {
-    background-color: black;
+    // background-color: rgb(7, 6, 20);
+    background-image: url("./../assets/nightMode3.png");
     color: white;
 }
 
 .lightSwitch {
     position: fixed;
-    left: 20px;
+    left: 10px;
     top: 20px;
+    cursor: pointer;
+
+    .fa-sun {
+        display: none;
+    }
 }
+
+
 
 // NAV STYLES
 
 .navUl {
     display: flex;
     justify-content: flex-end;
-}
 
-li {
-    margin: 20px;
 
-    a:hover,
-    a:focus {
-        text-decoration: 2px solid underline;
+    li {
+        margin: 20px;
+
+        a:hover,
+        a:focus {
+            text-decoration: 2px solid underline;
+        }
     }
 }
 
