@@ -436,6 +436,7 @@ p {
 }
 
 .home p {
+  margin-top: 10px;
   margin-bottom: 8px;
 }
 .home p span {
