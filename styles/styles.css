@@ -440,7 +440,6 @@ p {
 }
 .home p span {
   font-family: "Averia Serif Libre", cursive;
-  cursor: crosshair;
 }
 
 .bio {
@@ -487,9 +486,17 @@ p {
 .skills ul span {
   display: block;
 }
-.skills ul li:hover,
-.skills ul li:focus {
+.skills ul i {
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+}
+.skills ul i:hover,
+.skills ul i:focus {
   cursor: crosshair;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .devicon-firebase-plain {
@@ -604,13 +611,17 @@ body.darkMode .linksBox a:focus {
 .contactMe li:not(:first-of-type) {
   margin-left: 20px;
 }
-.contactMe a {
-  -webkit-transition: 0.3s ease;
-  transition: 0.3s ease;
+.contactMe i {
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
 }
-.contactMe a:hover,
-.contactMe a:focus {
+.contactMe i:hover,
+.contactMe i:focus {
   cursor: pointer;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 @media (max-width: 950px) {

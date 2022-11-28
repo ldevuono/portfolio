@@ -24,12 +24,13 @@
         margin-left: 20px;
     }
 
-    a {
-        transition: .3s ease;
+    i {
+        transition: transform .2s;
     }
 
-    a:hover,
-    a:focus {
+    i:hover,
+    i:focus {
         cursor: pointer;
+        transform: scale(1.2);
     }
 }

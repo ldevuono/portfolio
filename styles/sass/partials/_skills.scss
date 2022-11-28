@@ -31,9 +31,14 @@
         display: block;
     }
 
-    li:hover,
-    li:focus {
+    i {
+        transition: transform .2s;
+    }
+
+    i:hover,
+    i:focus {
         cursor: crosshair;
+        transform: scale(1.2);
     }
 }
 
