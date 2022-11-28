@@ -373,8 +373,6 @@ h2 {
 h3 {
   font-family: "Averia Serif Libre", cursive;
   font-size: 1.2rem;
-  -webkit-transition: 0.3s ease;
-  transition: 0.3s ease;
 }
 
 .skills h2,
@@ -492,6 +490,10 @@ p {
 .skills ul li:hover,
 .skills ul li:focus {
   cursor: crosshair;
+}
+
+.devicon-firebase-plain {
+  font-size: 3rem;
 }
 
 .projects {
