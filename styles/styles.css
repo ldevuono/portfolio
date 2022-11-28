@@ -564,6 +564,7 @@ p {
   padding: 5px 8px;
   border-radius: 10px;
   background-color: rgb(217, 152, 162);
+  text-transform: lowercase;
 }
 .linksBox a:hover,
 .linksBox a:focus {
