@@ -1,3 +1,5 @@
+@use './variables';
+
 @media (max-width:950px) {
 
     // bio
@@ -33,8 +35,8 @@
         flex-direction: column;
         align-items: flex-end;
         justify-content: flex-start;
-        background: rgba(0, 0, 0, 0.5);
-        color: white;
+        background: variables.$hamburger;
+        color: variables.$white;
         z-index: 100;
     }
 

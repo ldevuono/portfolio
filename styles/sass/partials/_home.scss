@@ -1,3 +1,5 @@
+@use './variables';
+
 .introText {
     display: flex;
     flex-direction: column;
@@ -38,7 +40,7 @@
         margin-bottom: 8px;
 
         span {
-            font-family: 'Averia Serif Libre', cursive;
+            font-family: variables.$h1;
         }
     }
 }

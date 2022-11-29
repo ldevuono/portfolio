@@ -1,3 +1,5 @@
+@use './variables';
+
 //WRAPPER
 .wrapper {
     width: 80%;
@@ -34,14 +36,13 @@ button {
 }
 
 body {
-    background-color: rgb(217, 152, 162);
+    background-color: variables.$primaryPink;
 }
 
 //DARK MODE
 .darkMode {
-    background-color: rgb(7, 6, 20);
-    // background-image: url("./../assets/nightMode3.png");
-    color: white;
+    background-color: variables.$primaryDark;
+    color: variables.$white;
 }
 
 .lightSwitch {
@@ -54,8 +55,6 @@ body {
         display: none;
     }
 }
-
-
 
 // NAV STYLES
 

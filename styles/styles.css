@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&family=EB+Garamond&display=swap");
 html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
@@ -352,26 +353,26 @@ footer p span {
 
 html {
   font-size: 125%;
-  font-family: "EB Garamond", serif;
+  font-family: "EB Garamond";
 }
 
 h1 {
   font-size: 3rem;
-  font-family: "Averia Serif Libre", cursive;
+  font-family: "Averia Serif Libre";
   text-transform: uppercase;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
 }
 
 h2 {
-  font-family: "Averia Serif Libre", cursive;
+  font-family: "Averia Serif Libre";
   font-size: 1.9rem;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
 }
 
 h3 {
-  font-family: "Averia Serif Libre", cursive;
+  font-family: "Averia Serif Libre";
   font-size: 1.2rem;
 }
 
@@ -388,7 +389,7 @@ p {
 }
 
 .navUl a {
-  font-family: "Averia Serif Libre", cursive;
+  font-family: "Averia Serif Libre";
   text-transform: lowercase;
 }
 
@@ -440,7 +441,7 @@ p {
   margin-bottom: 8px;
 }
 .home p span {
-  font-family: "Averia Serif Libre", cursive;
+  font-family: "Averia Serif Libre";
 }
 
 .bio {
@@ -479,7 +480,7 @@ p {
   width: calc(20% - 40px);
 }
 .skills ul p {
-  font-family: "Averia Serif Libre", cursive;
+  font-family: "Averia Serif Libre";
   margin-top: 8px;
   font-size: 0.8rem;
   text-align: center;
@@ -538,13 +539,13 @@ p {
 }
 
 .projectsSkills {
-  font-family: "Averia Serif Libre", cursive;
+  font-family: "Averia Serif Libre";
   font-size: 0.9rem;
   margin-top: 10px;
 }
 
 .linksBox {
-  font-family: "Averia Serif Libre", cursive;
+  font-family: "Averia Serif Libre";
   text-align: center;
   position: absolute;
   border-radius: 25px;

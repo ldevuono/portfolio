@@ -1,23 +1,25 @@
+@use './variables';
+
 html {
     font-size: 125%;
-    font-family: 'EB Garamond', serif;
+    font-family: variables.$body;
 }
 
 h1 {
     font-size: 3rem;
-    font-family: 'Averia Serif Libre', cursive;
+    font-family: variables.$h1;
     text-transform: uppercase;
     transition: .3s ease;
 }
 
 h2 {
-    font-family: 'Averia Serif Libre', cursive;
+    font-family: variables.$h1;
     font-size: 1.9rem;
     transition: .3s ease;
 }
 
 h3 {
-    font-family: 'Averia Serif Libre', cursive;
+    font-family: variables.$h1;
     font-size: 1.2rem;
 }
 
@@ -36,6 +38,6 @@ p {
 // NAV
 
 .navUl a {
-    font-family: 'Averia Serif Libre', cursive;
+    font-family: variables.$h1;
     text-transform: lowercase;
 }
