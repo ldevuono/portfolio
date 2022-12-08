@@ -445,10 +445,6 @@ p {
   font-family: "Averia Serif Libre";
 }
 
-.bio {
-  padding-bottom: 200px;
-}
-
 .skills {
   margin-top: 70px;
   margin-bottom: 100px;
@@ -508,6 +504,7 @@ p {
 
 .projects {
   margin-top: 70px;
+  margin-bottom: 70px;
 }
 
 .projectsList img {
@@ -591,7 +588,6 @@ body.darkMode .linksBox a:focus {
 
 .contact {
   margin-top: 70px;
-  padding-bottom: 300px;
 }
 .contact a {
   -webkit-text-decoration: 2px solid underline;
