@@ -1,5 +1,14 @@
 @use './variables';
 
+
+@media (max-width:1080px) {
+    .home {
+        p {
+            width: 100%;
+        }
+    }
+}
+
 @media (max-width:950px) {
 
     // bio
