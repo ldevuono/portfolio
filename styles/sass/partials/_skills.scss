@@ -18,7 +18,7 @@
         flex-direction: column;
         align-items: center;
         transition: .3s ease;
-        width: calc((100%/5) - 40px);
+        width: calc((100%/6) - 40px);
     }
 
     p {
@@ -40,6 +40,16 @@
     i:focus {
         cursor: crosshair;
         transform: scale(1.2);
+    }
+
+    img {
+        max-width: 60px;
+
+        &:hover,
+        &:focus {
+            cursor: crosshair;
+            transform: scale(1.2);
+        }
     }
 }
 

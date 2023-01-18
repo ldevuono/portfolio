@@ -480,7 +480,7 @@ p {
           align-items: center;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
-  width: calc(20% - 40px);
+  width: calc(16.6666666667% - 40px);
 }
 .skills ul p {
   font-family: "Averia Serif Libre";
@@ -499,6 +499,14 @@ p {
 }
 .skills ul i:hover,
 .skills ul i:focus {
+  cursor: crosshair;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+.skills ul img {
+  max-width: 60px;
+}
+.skills ul img:hover, .skills ul img:focus {
   cursor: crosshair;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
