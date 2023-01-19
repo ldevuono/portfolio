@@ -529,7 +529,7 @@ p {
 .projectsList li {
   background-color: rgba(231, 174, 183, 0.5);
   border-radius: 30px;
-  width: 80%;
+  width: 90%;
   margin: 20px auto;
   padding: 20px;
   display: -webkit-box;
@@ -541,7 +541,7 @@ p {
 }
 .projectsList .projectImg {
   margin-right: 30px;
-  width: 350px;
+  width: 400px;
   position: relative;
 }
 .projectsList .projectDesc {
