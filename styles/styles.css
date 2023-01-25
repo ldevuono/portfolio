@@ -549,6 +549,14 @@ p {
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
 }
+.projectsList .projectDesc a {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.projectsList .projectDesc a:hover,
+.projectsList .projectDesc a:focus {
+  text-decoration: none;
+}
 
 .projectsSkills {
   font-family: "Averia Serif Libre";
