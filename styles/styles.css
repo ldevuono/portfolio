@@ -523,8 +523,6 @@ p {
 
 .projectsList img {
   border-radius: 25px;
-  -o-object-position: 4px;
-     object-position: 4px;
 }
 .projectsList li {
   background-color: rgba(231, 174, 183, 0.5);
