@@ -29,30 +29,6 @@ menuItems.forEach(
 )
 
 
-// dark mode
-const body = document.querySelector("body");
-const lightSwitch = document.querySelector(".lightSwitch")
-
-const sun = document.querySelector(".fa-sun")
-const moon = document.querySelector(".fa-moon");
-const wolf = document.querySelector(".wolf");
-const cat = document.querySelector(".cat");
-
-lightSwitch.addEventListener("click", (e) => {
-    body.classList.toggle("darkMode");
-    if (body.classList.contains("darkMode")) {
-        sun.style.display = "block";
-        moon.style.display = "none";
-        cat.style.display = "block";
-        wolf.style.display = "none";
-    } else {
-        sun.style.display = "none";
-        moon.style.display = "block";
-        wolf.style.display = "block";
-        cat.style.display = "none";
-    }
-}
-)
 
 
 

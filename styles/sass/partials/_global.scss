@@ -39,23 +39,6 @@ body {
     background-color: variables.$primaryPink;
 }
 
-//DARK MODE
-.darkMode {
-    background-color: variables.$primaryDark;
-    color: variables.$white;
-}
-
-.lightSwitch {
-    position: fixed;
-    left: 10px;
-    top: 20px;
-    cursor: pointer;
-
-    .fa-sun {
-        display: none;
-    }
-}
-
 // NAV STYLES
 
 .navUl {
@@ -73,7 +56,6 @@ body {
     }
 }
 
-
 // hamburger button
 .hamburger {
     display: none;
@@ -85,20 +67,5 @@ body {
 
     .closeIcon {
         display: none;
-    }
-}
-
-
-//FOOTER STYLES
-
-footer p {
-    font-size: .8rem;
-    text-align: center;
-    padding: 10px;
-    text-transform: lowercase;
-
-
-    span {
-        font-style: italic;
     }
 }

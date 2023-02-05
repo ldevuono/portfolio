@@ -14,24 +14,17 @@
     }
 }
 
+.introImg {
+    width: 100%;
+    margin-top: 20px;
+}
+
 .introFlex {
     display: flex;
-
-    .introImg {
-        width: 25%;
-        align-self: center;
-        min-width: 170px;
-        position: relative;
-        top: 40px;
-    }
 
     .introText {
         width: 75%;
     }
-}
-
-.cat {
-    display: none;
 }
 
 .home {

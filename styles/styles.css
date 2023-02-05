@@ -295,22 +295,7 @@ button {
 }
 
 body {
-  background-color: rgb(217, 152, 162);
-}
-
-.darkMode {
-  background-color: rgb(7, 6, 20);
-  color: white;
-}
-
-.lightSwitch {
-  position: fixed;
-  left: 10px;
-  top: 20px;
-  cursor: pointer;
-}
-.lightSwitch .fa-sun {
-  display: none;
+  background-color: rgb(235, 188, 195);
 }
 
 .navUl {
@@ -340,16 +325,6 @@ body {
 }
 .hamburger .closeIcon {
   display: none;
-}
-
-footer p {
-  font-size: 0.8rem;
-  text-align: center;
-  padding: 10px;
-  text-transform: lowercase;
-}
-footer p span {
-  font-style: italic;
 }
 
 html {
@@ -416,25 +391,18 @@ p {
   margin-top: 10%;
 }
 
+.introImg {
+  width: 100%;
+  margin-top: 20px;
+}
+
 .introFlex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-.introFlex .introImg {
-  width: 25%;
-  -ms-flex-item-align: center;
-      align-self: center;
-  min-width: 170px;
-  position: relative;
-  top: 40px;
-}
 .introFlex .introText {
   width: 75%;
-}
-
-.cat {
-  display: none;
 }
 
 .home {
@@ -520,90 +488,33 @@ p {
   margin-top: 70px;
   margin-bottom: 70px;
 }
-
-.projectsList img {
-  border-radius: 25px;
-}
-.projectsList li {
-  background-color: rgba(231, 174, 183, 0.5);
-  border-radius: 30px;
-  width: 90%;
-  margin: 20px auto;
-  padding: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-.projectsList .projectImg {
-  margin-right: 30px;
-  width: 400px;
-  position: relative;
-}
-.projectsList .projectDesc {
-  width: 60%;
-  -webkit-transition: 0.3s ease;
-  transition: 0.3s ease;
-}
-.projectsList .projectDesc a {
+.projects a {
   font-weight: bold;
   text-decoration: underline;
 }
-.projectsList .projectDesc a:hover,
-.projectsList .projectDesc a:focus {
+.projects a:hover,
+.projects a:focus {
   text-decoration: none;
+}
+.projects img {
+  width: 350px;
+  margin-bottom: 10px;
+}
+
+.project {
+  margin: 20px 0;
+}
+
+.links a {
+  display: inline-block;
+  margin: 10px 15px 10px 0;
+  font-family: "Averia Serif Libre";
 }
 
 .projectsSkills {
   font-family: "Averia Serif Libre";
   font-size: 0.9rem;
   margin-top: 10px;
-}
-
-.linksBox {
-  font-family: "Averia Serif Libre";
-  text-align: center;
-  position: absolute;
-  border-radius: 25px;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding-top: 70px;
-  background-color: rgba(208, 172, 178, 0.5);
-}
-.linksBox .liveLink {
-  margin-right: 10px;
-}
-.linksBox a {
-  display: inline-block;
-  -webkit-transition: 0.3s ease;
-  transition: 0.3s ease;
-  padding: 5px 8px;
-  border-radius: 10px;
-  background-color: rgb(217, 152, 162);
-  text-transform: lowercase;
-}
-.linksBox a:hover,
-.linksBox a:focus {
-  background-color: pink;
-}
-
-body.darkMode .projectsList li {
-  background-color: rgba(24, 23, 45, 0.5);
-}
-
-body.darkMode .linksBox {
-  background-color: rgba(7, 6, 20, 0.5);
-}
-body.darkMode .linksBox a {
-  background-color: rgba(7, 6, 20, 0.5);
-}
-body.darkMode .linksBox a:hover,
-body.darkMode .linksBox a:focus {
-  background-color: rgb(7, 6, 20);
 }
 
 .contact {
@@ -703,31 +614,10 @@ body.darkMode .linksBox a:focus {
   .introText h2 {
     font-size: 1rem;
   }
-  .projectsList li {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .projectsList .projectImg {
-    width: 250px;
-    margin-right: 0;
-    margin-bottom: 20px;
-  }
-  .projectsList .projectDesc {
-    width: 100%;
-  }
-  .projectsList .projectsSkills {
-    margin-top: 15px;
-  }
 }
-@media (max-width: 570px) {
+@media (max-width: 700px) and (max-width: 570px) {
   .introFlex {
     position: relative;
-  }
-  .introFlex .introImg {
-    position: absolute;
-    right: -30px;
   }
   .introFlex .introText {
     width: 100%;
@@ -742,19 +632,8 @@ body.darkMode .linksBox a:focus {
     width: calc(50% - 40px);
   }
 }
-@media (max-width: 450px) {
-  .introFlex .introImg {
-    display: none;
-  }
-}
 @media (max-width: 375px) {
   .introText h2 span {
     display: block;
-  }
-  .projectsList li {
-    padding: 10px;
-  }
-  .projectsList .projectImg {
-    width: 230px;
   }
 }
