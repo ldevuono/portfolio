@@ -394,6 +394,8 @@ p {
 .introImg {
   width: 100%;
   margin-top: 20px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 .introFlex {
@@ -488,33 +490,70 @@ p {
   margin-top: 70px;
   margin-bottom: 70px;
 }
-.projects a {
+
+.projectsList li {
+  background-color: rgba(231, 174, 183, 0.5);
+  width: 90%;
+  margin: 20px auto;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.projectsList .projectImg {
+  margin-right: 30px;
+  width: 400px;
+  position: relative;
+}
+.projectsList .projectDesc {
+  width: 60%;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+.projectsList .projectDesc a {
   font-weight: bold;
   text-decoration: underline;
 }
-.projects a:hover,
-.projects a:focus {
+.projectsList .projectDesc a:hover,
+.projectsList .projectDesc a:focus {
   text-decoration: none;
-}
-.projects img {
-  width: 350px;
-  margin-bottom: 10px;
-}
-
-.project {
-  margin: 20px 0;
-}
-
-.links a {
-  display: inline-block;
-  margin: 10px 15px 10px 0;
-  font-family: "Averia Serif Libre";
 }
 
 .projectsSkills {
   font-family: "Averia Serif Libre";
   font-size: 0.9rem;
   margin-top: 10px;
+}
+
+.linksBox {
+  font-family: "Averia Serif Libre";
+  text-align: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-top: 70px;
+  background-color: rgba(208, 172, 178, 0.5);
+}
+.linksBox .liveLink {
+  margin-right: 10px;
+}
+.linksBox a {
+  display: inline-block;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  padding: 5px 8px;
+  border-radius: 10px;
+  background-color: rgb(235, 188, 195);
+  text-transform: lowercase;
+}
+.linksBox a:hover,
+.linksBox a:focus {
+  background-color: pink;
 }
 
 .contact {
@@ -614,11 +653,25 @@ p {
   .introText h2 {
     font-size: 1rem;
   }
-}
-@media (max-width: 700px) and (max-width: 570px) {
-  .introFlex {
-    position: relative;
+  .projectsList li {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
+  .projectsList .projectImg {
+    width: 250px;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .projectsList .projectDesc {
+    width: 100%;
+  }
+  .projectsList .projectsSkills {
+    margin-top: 15px;
+  }
+}
+@media (max-width: 570px) {
   .introFlex .introText {
     width: 100%;
   }
@@ -635,5 +688,11 @@ p {
 @media (max-width: 375px) {
   .introText h2 span {
     display: block;
+  }
+  .projectsList li {
+    padding: 10px;
+  }
+  .projectsList .projectImg {
+    width: 230px;
   }
 }

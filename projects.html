@@ -11,7 +11,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="https://kit.fontawesome.com/c6e0ae9053.js" crossorigin="anonymous"></script>
     <link rel="icon" href="./assets/rose.png">
-
 </head>
 
 <body>
@@ -32,73 +31,114 @@
     </header>
     <main>
         <section class="wrapper projects" id="projects">
-
             <h2>Recent Projects</h2>
-            <div class="projectsList">
-                <div class="project">
-                    <img src="./assets/verse.png" alt="A screenshot of my project, Exquisite Verse.">
-                    <h3>Exquisite Verse</h3>
-                    <p>A poem generator created in React, powered by the PoetryDB API.
-                    </p>
-                    <p class="projectsSkills">React | JavaScript | RESTful APIs | Firebase | CSS3 | responsive
-                        design</p>
-                    <div class="links"><a href="https://exquisiteverse.netlify.app/">live</a><a
-                            href="https://github.com/ldevuono/exquisiteVerse">code</a></div>
-                </div>
-                <div class="project">
-                    <img src="./assets/horror.png" alt="A screenshot of my project, Horror Roulette.">
-                    <h3>Horror Roulette</h3>
-                    <p>A horror movie randomizer created in React.</p>
-                    <p class="projectsSkills">React | JavaScript | RESTful APIs | Firebase | CSS3 | responsive
-                        design</p>
-                    <div class="links"><a href="https://horrorroulette.netlify.app/">live</a><a
-                            href="https://github.com/ldevuono/horrorRoulette">code</a></div>
-                </div>
-                <div class="project">
-                    <img src="./assets/space.png" alt="A screenshot of my project, YBS Space Tours.">
-                    <h3>YBS Space Tours</h3>
-                    <p>A space tour booking app created in React. Photos and near-earth asteroid data come from the
-                        NASA
-                        API.
-                    </p>
-                    <p class="projectsSkills">React | SCSS | JavaScript | RESTful APIs | mob programming</p>
-                    <div class="links"><a href="https://ybsspacetours.netlify.app/">live</a><a
-                            href="https://github.com/ldevuono/ybsSpaceTours">code</a></div>
-                </div>
-                <div class="project">
-                    <img src="./assets/sanc.png" alt="A screenshot of my project, Sanctuary Helpers.">
-                    <h3>Sanctuary Helpers</h3>
-                    <p>A multi-page PSD
-                        conversion based on <a
-                            href="https://drive.google.com/drive/folders/1noXgA82JwI-E8UsXXM-f1VcHD7o2SZXD?usp=sharing">these
-                            design files</a>.</p>
-                    <p class="projectsSkills">HTML5 | SCSS | responsive design | accessible
-                        design | JavaScript
-                    </p>
-                    <div class="links"><a href="https://sanctuaryhelpers-project.netlify.app/">live</a><a
-                            href="https://github.com/ldevuono/sanctuaryhelpers">code</a></div>
-                </div>
-                <div class="project">
-                    <img src="./assets/electric.png" alt="A screenshot of my project, Electric Select.">
-                    <h3>Electric Select</h3>
-                    <p>A single-page PSD
-                        conversion based on <a
-                            href="https://drive.google.com/drive/folders/1LB3VW2EEaXyOpITpcK8okO2zf_38iSsL?usp=sharing">these
-                            design files</a>.</p>
-                    <p class="projectsSkills">HTML5 | CSS3 | responsive design | accessible design | JavaScript</p>
-                    <div class="links"><a href="https://electricselect-project.netlify.app/">live</a><a
-                            href="https://github.com/ldevuono/electricselect">code</a></div>
-                </div>
-                <!-- <div class="project">
-                    <img src="./assets/sun.png" alt="A screenshot of my project, Electric Select.">
-                    <h3>sunmaker2—in progress</h3>
-                    <p>Playing around with vanilla JS. Simple little app for your moment of zen.
-                    </p>
-                    <p class="projectsSkills">HTML5 | CSS3 | JavaScript</p>
-                    <div class="links"><a href="https://sunmaker2.netlify.app/">live</a><a
-                            href="https://github.com/ldevuono/sunmaker2">code</a></div>
-                </div> -->
-            </div>
+            <ul class="projectsList">
+                <li>
+                    <div class="projectImg">
+                        <img src="./assets/verse.png" alt="A screenshot of my project, Exquisite Verse.">
+                        <div class=linksBox>
+                            <a href="https://exquisiteverse.netlify.app/" class="liveLink">View live</a>
+                            <a href="https://github.com/ldevuono/exquisiteVerse">View code</a>
+                        </div>
+                    </div>
+                    <div class=" projectDesc">
+                        <h3>Exquisite Verse</h3>
+                        <p>A poem generator created in React, powered by the PoetryDB API.
+                            Writing
+                            poetry is
+                            easy!</p>
+                        <p class="projectsSkills">React | JavaScript | RESTful APIs | Firebase | CSS3 | responsive
+                            design</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="projectImg">
+                        <img src="./assets/horror.png" alt="A screenshot of my project, Horror Roulette.">
+                        <div class=linksBox>
+                            <a href="https://horrorroulette.netlify.app/" class="liveLink">View live</a>
+                            <a href="https://github.com/ldevuono/horrorRoulette">View code</a>
+                        </div>
+                    </div>
+                    <div class=" projectDesc">
+                        <h3>Horror Roulette</h3>
+                        <p>A horror movie randomizer created in React.
+                            Find a horror movie
+                            and add
+                            it to your watch list.</p>
+                        <p class="projectsSkills">React | JavaScript | RESTful APIs | Firebase | CSS3 | responsive
+                            design</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="projectImg">
+                        <img src="./assets/space.png" alt="A screenshot of my project, YBS Space Tours.">
+                        <div class=linksBox>
+                            <a href="https://ybsspacetours.netlify.app/" class="liveLink">View live</a>
+                            <a href="https://github.com/ldevuono/ybsSpaceTours">View code</a>
+                        </div>
+                    </div>
+                    <div class="projectDesc">
+                        <h3>YBS Space Tours</h3>
+                        <p>A space tour booking site created in React. Take virtual tours of nine destinations and then
+                            book a date for a space cruise. Photos and near-earth asteroid data come from the NASA API.
+                        </p>
+                        <p class="projectsSkills">React | SCSS | JavaScript | RESTful APIs | mob programming</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="projectImg">
+                        <img src="./assets/sanc.png" alt="A screenshot of my project, Sanctuary Helpers.">
+                        <div class=linksBox>
+                            <a href="https://sanctuaryhelpers-project.netlify.app/" class="liveLink">View live</a>
+                            <a href="https://github.com/ldevuono/sanctuaryHelpers">View code</a>
+                        </div>
+                    </div>
+                    <div class="projectDesc">
+                        <h3>Sanctuary Helpers</h3>
+                        <p>A multi-page PSD
+                            conversion based on <a
+                                href="https://drive.google.com/drive/folders/1noXgA82JwI-E8UsXXM-f1VcHD7o2SZXD?usp=sharing">these
+                                design files</a>.</p>
+                        <p class="projectsSkills">HTML5 | SCSS | responsive design | accessible
+                            design | JavaScript
+                        </p>
+                    </div>
+                </li>
+                <!-- <li>
+                    <div class="projectImg">
+                        <img src="./assets/recipe.png" alt="A screenshot of my project, Recipe Rescue.">
+                        <div class=linksBox>
+                            <a href="https://reciperescueapp.netlify.app/" class="liveLink">View live</a>
+                            <a href="https://github.com/ldevuono/recipeRescueApp">View code</a>
+                        </div>
+                    </div>
+                    <div class="projectDesc">
+                        <h3>Recipe Rescue</h3>
+                        <p>A recipe finder built
+                            using
+                            vanilla JavaScript and powered by the Spoonacular API.</p>
+                        <p class="projectsSkills">HTML5 | SCSS | JavaScript | RESTful APIs | responsive design |
+                            paired programming</p>
+                    </div>
+                </li> -->
+                <li>
+                    <div class="projectImg">
+                        <img src="./assets/electric.png" alt="A screenshot of my project, Electric Select.">
+                        <div class=linksBox>
+                            <a href="https://electricselect-project.netlify.app/" class="liveLink">View live</a>
+                            <a href="https://github.com/ldevuono/electricSelect">View code</a>
+                        </div>
+                    </div>
+                    <div class=" projectDesc">
+                        <h3>Electric Select</h3>
+                        <p>A single-page PSD
+                            conversion based on <a
+                                href="https://drive.google.com/drive/folders/1LB3VW2EEaXyOpITpcK8okO2zf_38iSsL?usp=sharing">these
+                                design files</a>.</p>
+                        <p class="projectsSkills">HTML5 | CSS3 | responsive design | accessible design | JavaScript</p>
+                    </div>
+                </li>
+            </ul>
         </section>
     </main>
 
