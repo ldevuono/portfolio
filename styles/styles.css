@@ -417,9 +417,6 @@ p {
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
 }
-.home p span {
-  font-family: "Averia Serif Libre";
-}
 
 .skills {
   margin-top: 70px;
