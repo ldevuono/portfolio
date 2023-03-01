@@ -328,6 +328,10 @@ body {
 }
 
 html {
+  scroll-behavior: smooth;
+}
+
+html {
   font-size: 125%;
   font-family: "EB Garamond";
 }
