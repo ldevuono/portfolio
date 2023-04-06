@@ -13,12 +13,17 @@
         padding: 20px;
         display: flex;
         align-items: center;
+        border-radius: 30px;
     }
 
     .projectImg {
         margin-right: 30px;
         width: 400px;
         position: relative;
+
+        img {
+            border-radius: 30px;
+        }
     }
 
     .projectDesc {
@@ -47,7 +52,7 @@
     font-family: variables.$h1;
     text-align: center;
     position: absolute;
-    // border-radius: 25px;
+    border-radius: 30px;
     top: 0;
     right: 0;
     bottom: 0;
