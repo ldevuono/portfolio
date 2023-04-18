@@ -503,11 +503,15 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border-radius: 30px;
 }
 .projectsList .projectImg {
   margin-right: 30px;
   width: 400px;
   position: relative;
+}
+.projectsList .projectImg img {
+  border-radius: 30px;
 }
 .projectsList .projectDesc {
   width: 60%;
@@ -533,6 +537,7 @@ p {
   font-family: "Averia Serif Libre";
   text-align: center;
   position: absolute;
+  border-radius: 30px;
   top: 0;
   right: 0;
   bottom: 0;
