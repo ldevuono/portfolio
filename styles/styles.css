@@ -451,7 +451,7 @@ p {
           align-items: center;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
-  width: calc(16.6666666667% - 40px);
+  width: calc(20% - 40px);
 }
 .skills ul p {
   font-family: "Averia Serif Libre";
