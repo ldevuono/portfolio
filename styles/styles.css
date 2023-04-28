@@ -298,6 +298,17 @@ body {
   background-color: rgb(235, 188, 195);
 }
 
+header {
+  padding: 10px 0;
+}
+
+.headerRose {
+  width: 80px;
+  position: absolute;
+  top: 10px;
+  left: 50px;
+}
+
 .navUl {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -451,7 +462,7 @@ p {
           align-items: center;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
-  width: calc(16.6666666667% - 40px);
+  width: calc(20% - 40px);
 }
 .skills ul p {
   font-family: "Averia Serif Libre";
@@ -614,6 +625,13 @@ p {
   }
 }
 @media (max-width: 900px) {
+  header {
+    padding: 30px 0;
+  }
+  .headerRose {
+    left: 20px;
+    width: 50px;
+  }
   .hamburger {
     display: block;
   }
