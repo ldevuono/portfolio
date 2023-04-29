@@ -438,10 +438,11 @@ p {
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
 }
-.home span {
+
+.bio span {
   font-family: "Averia Serif Libre";
 }
-.home span:hover {
+.bio span:hover {
   -webkit-text-decoration: underline dotted tomato;
           text-decoration: underline dotted tomato;
   cursor: crosshair;
@@ -577,7 +578,7 @@ p {
   header {
     padding: 30px 0;
   }
-  .headerRose {
+  .headerBlob {
     left: 20px;
     width: 50px;
   }

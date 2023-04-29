@@ -42,6 +42,10 @@
         transition: .3s ease;
     }
 
+    margin-bottom:70px;
+}
+
+.bio {
     span {
         font-family: variables.$h1;
 
@@ -50,6 +54,4 @@
             cursor: crosshair;
         }
     }
-
-    margin-bottom:70px;
 }
