@@ -1,5 +1,11 @@
 @use './variables';
 
+.overlay {
+    opacity: .4;
+    position: absolute;
+    z-index: -100;
+}
+
 .introText {
     display: flex;
     flex-direction: column;
@@ -34,6 +40,15 @@
         margin-bottom: 8px;
         width: 80%;
         transition: .3s ease;
+    }
+
+    span {
+        font-family: variables.$h1;
+
+        &:hover {
+            text-decoration: underline dotted tomato;
+            cursor: crosshair;
+        }
     }
 
     margin-bottom:20px;

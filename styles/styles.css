@@ -302,10 +302,10 @@ header {
   padding: 10px 0;
 }
 
-.headerRose {
+.headerBlob {
   width: 80px;
   position: absolute;
-  top: 10px;
+  top: 15px;
   left: 50px;
 }
 
@@ -348,7 +348,7 @@ html {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-family: "Averia Serif Libre";
   text-transform: uppercase;
   -webkit-transition: 0.3s ease;
@@ -382,6 +382,12 @@ p {
 .navUl a {
   font-family: "Averia Serif Libre";
   text-transform: lowercase;
+}
+
+.overlay {
+  opacity: 0.4;
+  position: absolute;
+  z-index: -100;
 }
 
 .introText {
@@ -432,70 +438,13 @@ p {
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
 }
-
-.skills {
-  margin-top: 70px;
-  margin-bottom: 100px;
-}
-
-.skills ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-.skills ul li {
-  margin: 30px 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-transition: 0.3s ease;
-  transition: 0.3s ease;
-  width: calc(20% - 40px);
-}
-.skills ul p {
+.home span {
   font-family: "Averia Serif Libre";
-  margin-top: 8px;
-  font-size: 0.8rem;
-  text-align: center;
 }
-.skills ul span {
-  display: block;
-}
-.skills ul i {
-  -webkit-transition: -webkit-transform 0.2s;
-  transition: -webkit-transform 0.2s;
-  transition: transform 0.2s;
-  transition: transform 0.2s, -webkit-transform 0.2s;
-}
-.skills ul i:hover,
-.skills ul i:focus {
+.home span:hover {
+  -webkit-text-decoration: underline dotted tomato;
+          text-decoration: underline dotted tomato;
   cursor: crosshair;
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
-}
-.skills ul img {
-  max-width: 60px;
-}
-.skills ul img:hover, .skills ul img:focus {
-  cursor: crosshair;
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
-}
-
-.devicon-firebase-plain {
-  font-size: 3rem;
 }
 
 .projects {
