@@ -481,7 +481,8 @@ p {
 }
 .projectsList .projectDesc a {
   font-weight: bold;
-  text-decoration: underline;
+  -webkit-text-decoration: underline dotted tomato;
+          text-decoration: underline dotted tomato;
 }
 .projectsList .projectDesc a:hover,
 .projectsList .projectDesc a:focus {
@@ -557,8 +558,8 @@ p {
 .contactMe i:hover,
 .contactMe i:focus {
   cursor: pointer;
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 @media (max-width: 1080px) {
