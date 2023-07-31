@@ -8,7 +8,7 @@ html {
 h1 {
     font-size: 3.5rem;
     font-family: variables.$h1;
-    text-transform: uppercase;
+    text-transform: lowercase;
     transition: .3s ease;
 }
 
@@ -16,6 +16,7 @@ h2 {
     font-family: variables.$h1;
     font-size: 1.9rem;
     transition: .3s ease;
+    text-transform: lowercase;
 }
 
 h3 {
@@ -33,6 +34,7 @@ h3 {
 
 p {
     letter-spacing: .5px;
+    font-size: .9rem;
 }
 
 // NAV

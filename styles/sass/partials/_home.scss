@@ -48,10 +48,7 @@
 .bio {
     span {
         font-family: variables.$h1;
-
-        &:hover {
-            text-decoration: underline dotted tomato;
-            cursor: crosshair;
-        }
+        text-decoration: underline dotted tomato;
+        cursor: crosshair;
     }
 }
