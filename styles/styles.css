@@ -322,8 +322,8 @@ header {
 }
 .navUl li a:hover,
 .navUl li a:focus {
-  -webkit-text-decoration: 2px dotted red underline;
-          text-decoration: 2px dotted red underline;
+  -webkit-text-decoration: 2px dotted tomato underline;
+          text-decoration: 2px dotted tomato underline;
 }
 
 .hamburger {
