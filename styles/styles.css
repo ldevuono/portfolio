@@ -366,6 +366,7 @@ h2 {
 h3 {
   font-family: "Inter";
   font-size: 1.2rem;
+  margin-bottom: 10px;
 }
 
 .skills h2,
@@ -378,7 +379,7 @@ h3 {
 
 p {
   letter-spacing: 0.5px;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
 }
 
 .navUl a {
