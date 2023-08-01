@@ -319,6 +319,7 @@ header {
 }
 .navUl li {
   margin: 20px;
+  font-weight: bold;
 }
 .navUl li a:hover,
 .navUl li a:focus {
@@ -367,6 +368,7 @@ h3 {
   font-family: "Inter";
   font-size: 1.2rem;
   margin-bottom: 10px;
+  text-transform: lowercase;
 }
 
 .skills h2,
@@ -448,6 +450,9 @@ p {
           text-decoration: underline dotted tomato;
   cursor: crosshair;
 }
+.bio span:hover {
+  text-decoration: none;
+}
 
 .projects {
   margin-top: 70px;
@@ -478,12 +483,11 @@ p {
 }
 .projectsList .projectDesc a {
   font-weight: bold;
-  -webkit-text-decoration: underline dotted tomato;
-          text-decoration: underline dotted tomato;
 }
 .projectsList .projectDesc a:hover,
 .projectsList .projectDesc a:focus {
-  text-decoration: none;
+  -webkit-text-decoration: underline dotted tomato;
+          text-decoration: underline dotted tomato;
 }
 
 .projectsSkills {

@@ -50,5 +50,10 @@
         font-family: variables.$h1;
         text-decoration: underline dotted tomato;
         cursor: crosshair;
+
+        &:hover {
+            text-decoration: none;
+
+        }
     }
 }
