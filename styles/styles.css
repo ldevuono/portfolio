@@ -593,8 +593,11 @@ p {
     -webkit-transform: translateY(0);
             transform: translateY(0);
   }
-  .introText h2 {
-    font-size: 1.2rem;
+  h2 {
+    font-size: 1.4rem;
+  }
+  h3 {
+    font-size: 1.1rem;
   }
   .skills ul li {
     width: calc(33.3333333333% - 40px);

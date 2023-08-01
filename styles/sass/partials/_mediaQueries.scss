@@ -65,10 +65,12 @@
     }
 
     // bio
-    .introText {
-        h2 {
-            font-size: 1.2rem;
-        }
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    h3 {
+        font-size: 1.1rem;
     }
 
     // skills
@@ -82,6 +84,9 @@
 @media (max-width:700px) {
 
     // bio
+
+
+
     .introText {
         h1 {
             font-size: 2.2rem;
@@ -133,6 +138,7 @@
         h2 {
             font-size: 1rem;
         }
+
     }
 
     // skills
