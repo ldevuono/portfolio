@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&display=swap");
 html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
@@ -481,8 +481,6 @@ p {
 }
 .projectsList .projectDesc {
   width: 60%;
-  -webkit-transition: 0.3s ease;
-  transition: 0.3s ease;
 }
 .projectsList .projectDesc a {
   font-weight: bold;
@@ -533,16 +531,13 @@ p {
   margin-left: 20px;
 }
 .contactMe i {
-  -webkit-transition: -webkit-transform 0.2s;
-  transition: -webkit-transform 0.2s;
-  transition: transform 0.2s;
-  transition: transform 0.2s, -webkit-transform 0.2s;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 .contactMe i:hover,
 .contactMe i:focus {
   cursor: pointer;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  color: #BF4A4A;
 }
 
 @media (max-width: 1080px) {

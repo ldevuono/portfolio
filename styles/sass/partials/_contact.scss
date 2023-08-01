@@ -1,3 +1,5 @@
+@use './variables';
+
 .contact {
     margin-top: 70px;
 
@@ -24,12 +26,12 @@
     }
 
     i {
-        transition: transform .2s;
+        transition: .3s ease;
     }
 
     i:hover,
     i:focus {
         cursor: pointer;
-        transform: scale(1.1);
+        color: variables.$red;
     }
 }
