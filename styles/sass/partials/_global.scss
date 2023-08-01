@@ -36,7 +36,8 @@ button {
 }
 
 body {
-    background-color: rgb(241, 218, 218);
+    // background-color: rgb(241, 218, 218);
+    background-color: variables.$background;
 }
 
 // NAV STYLES
@@ -61,7 +62,7 @@ header {
 
         a:hover,
         a:focus {
-            text-decoration: 2px dotted tomato underline;
+            text-decoration: 2px dotted variables.$red underline;
         }
     }
 }

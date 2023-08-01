@@ -295,7 +295,7 @@ button {
 }
 
 body {
-  background-color: rgb(241, 218, 218);
+  background-color: #E5DDD2;
 }
 
 header {
@@ -323,8 +323,8 @@ header {
 }
 .navUl li a:hover,
 .navUl li a:focus {
-  -webkit-text-decoration: 2px dotted tomato underline;
-          text-decoration: 2px dotted tomato underline;
+  -webkit-text-decoration: 2px dotted #BF4A4A underline;
+          text-decoration: 2px dotted #BF4A4A underline;
 }
 
 .hamburger {
@@ -354,6 +354,9 @@ h1 {
   text-transform: lowercase;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
+  color: #BF4A4A;
+  line-height: 0.93;
+  margin-bottom: 5px;
 }
 
 h2 {
@@ -446,8 +449,8 @@ p {
 
 .bio span {
   font-family: "Inter";
-  -webkit-text-decoration: underline dotted tomato;
-          text-decoration: underline dotted tomato;
+  -webkit-text-decoration: underline dotted #BF4A4A;
+          text-decoration: underline dotted #BF4A4A;
   cursor: crosshair;
 }
 .bio span:hover {
@@ -486,8 +489,8 @@ p {
 }
 .projectsList .projectDesc a:hover,
 .projectsList .projectDesc a:focus {
-  -webkit-text-decoration: underline dotted tomato;
-          text-decoration: underline dotted tomato;
+  -webkit-text-decoration: underline dotted #BF4A4A;
+          text-decoration: underline dotted #BF4A4A;
 }
 
 .projectsSkills {
@@ -548,11 +551,13 @@ p {
   }
 }
 @media (max-width: 950px) {
-  .introText h1 span {
-    display: block;
-  }
   .projectsList li {
     width: 100%;
+  }
+}
+@media (max-width: 856px) {
+  .introText h1 {
+    font-size: 2.8rem;
   }
 }
 @media (max-width: 900px) {
@@ -602,8 +607,8 @@ p {
 }
 @media (max-width: 700px) {
   .introText h1 {
-    font-size: 2.5rem;
-    margin-top: 20%;
+    font-size: 2.2rem;
+    margin-top: 15%;
   }
   .introText h2 {
     font-size: 1rem;
@@ -641,10 +646,12 @@ p {
   }
 }
 @media (max-width: 375px) {
-  .introText h2 span {
+  .introText h2 span,
+  .introText h1 span {
     display: block;
   }
   .projectsList li {
     padding: 10px;
+    margin-bottom: 30px;
   }
 }
