@@ -345,12 +345,12 @@ html {
 
 html {
   font-size: 125%;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
 }
 
 h1 {
   font-size: 3.5rem;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   text-transform: lowercase;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
@@ -360,7 +360,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-size: 1.9rem;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
@@ -368,7 +368,7 @@ h2 {
 }
 
 h3 {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-size: 1.2rem;
   margin-bottom: 10px;
   text-transform: lowercase;
@@ -388,7 +388,7 @@ p {
 }
 
 .navUl a {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   text-transform: lowercase;
 }
 
@@ -448,7 +448,7 @@ p {
 }
 
 .bio span {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   -webkit-text-decoration: underline dotted #BF4A4A;
           text-decoration: underline dotted #BF4A4A;
   cursor: crosshair;
@@ -494,7 +494,7 @@ p {
 }
 
 .projectsSkills {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-size: 0.8rem;
   margin-top: 10px;
 }
