@@ -19,6 +19,7 @@
         margin-right: 30px;
         width: 400px;
         position: relative;
+        transition: .3s ease;
 
     }
 
@@ -38,7 +39,7 @@
 
 .projectsSkills {
     font-family: variables.$h1;
-    font-size: .9rem;
+    font-size: .8rem;
     margin-top: 10px;
 }
 

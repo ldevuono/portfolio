@@ -383,8 +383,8 @@ h3 {
 }
 
 p {
-  letter-spacing: 0.5px;
-  font-size: 0.85rem;
+  letter-spacing: 0.3px;
+  font-size: 0.8rem;
 }
 
 .navUl a {
@@ -478,6 +478,8 @@ p {
   margin-right: 30px;
   width: 400px;
   position: relative;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 .projectsList .projectDesc {
   width: 60%;
@@ -493,7 +495,7 @@ p {
 
 .projectsSkills {
   font-family: "Inter";
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   margin-top: 10px;
 }
 
