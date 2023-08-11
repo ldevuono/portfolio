@@ -295,7 +295,7 @@ button {
 }
 
 body {
-  background-color: #eeebeb;
+  background-color: #f5f3f3;
 }
 
 header {
@@ -323,8 +323,8 @@ header {
 }
 .navUl li a:hover,
 .navUl li a:focus {
-  -webkit-text-decoration: 2px dotted #d22121 underline;
-          text-decoration: 2px dotted #d22121 underline;
+  -webkit-text-decoration: 2px dotted #be81c6 underline;
+          text-decoration: 2px dotted #be81c6 underline;
 }
 
 .hamburger {
@@ -349,12 +349,12 @@ html {
 }
 
 h1 {
-  font-size: 3.5rem;
+  font-size: 4rem;
   font-family: "Inter", sans-serif;
   text-transform: lowercase;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
-  color: #d22121;
+  color: #be81c6;
   line-height: 0.93;
   margin-bottom: 5px;
   font-weight: 600;
@@ -455,8 +455,8 @@ p {
 
 .bio span {
   font-family: "Inter", sans-serif;
-  -webkit-text-decoration: underline dotted #d22121;
-          text-decoration: underline dotted #d22121;
+  -webkit-text-decoration: underline dotted #be81c6;
+          text-decoration: underline dotted #be81c6;
   cursor: crosshair;
 }
 .bio span:hover {
@@ -495,16 +495,16 @@ p {
 }
 .projectsList .projectDesc .viewLinks a:hover,
 .projectsList .projectDesc .viewLinks a:focus {
-  -webkit-text-decoration: underline dotted #d22121;
-          text-decoration: underline dotted #d22121;
+  -webkit-text-decoration: underline dotted #be81c6;
+          text-decoration: underline dotted #be81c6;
 }
 .projectsList .googleDrive {
   font-weight: 600;
 }
 .projectsList .googleDrive:hover,
 .projectsList .googleDrive:focus {
-  -webkit-text-decoration: underline dotted #d22121;
-          text-decoration: underline dotted #d22121;
+  -webkit-text-decoration: underline dotted #be81c6;
+          text-decoration: underline dotted #be81c6;
 }
 
 .projectsSkills {
@@ -554,7 +554,7 @@ p {
 .contactMe i:hover,
 .contactMe i:focus {
   cursor: pointer;
-  color: #d22121;
+  color: #be81c6;
 }
 
 @media (max-width: 1080px) {
