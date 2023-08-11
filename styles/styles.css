@@ -295,7 +295,7 @@ button {
 }
 
 body {
-  background-color: #f6f6f6;
+  background-color: #eeebeb;
 }
 
 header {
@@ -357,7 +357,7 @@ h1 {
   color: #d22121;
   line-height: 0.93;
   margin-bottom: 5px;
-  font-weight: 400;
+  font-weight: 600;
   letter-spacing: 0.9;
 }
 
@@ -367,7 +367,7 @@ h2 {
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
   text-transform: lowercase;
-  font-weight: 400;
+  font-weight: 600;
   letter-spacing: 0.9;
 }
 
@@ -376,7 +376,7 @@ h3 {
   font-size: 1.2rem;
   margin-bottom: 10px;
   text-transform: lowercase;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .skills h2,
@@ -395,7 +395,7 @@ p {
 .navUl a {
   font-family: "Inter", sans-serif;
   text-transform: lowercase;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .overlay {
@@ -491,7 +491,7 @@ p {
   width: 60%;
 }
 .projectsList .projectDesc .viewLinks a {
-  font-weight: 400;
+  font-weight: 600;
 }
 .projectsList .projectDesc .viewLinks a:hover,
 .projectsList .projectDesc .viewLinks a:focus {
@@ -499,12 +499,12 @@ p {
           text-decoration: underline dotted #d22121;
 }
 .projectsList .googleDrive {
-  -webkit-text-decoration: underline dotted #d22121;
-          text-decoration: underline dotted #d22121;
+  font-weight: 600;
 }
 .projectsList .googleDrive:hover,
 .projectsList .googleDrive:focus {
-  text-decoration: none;
+  -webkit-text-decoration: underline dotted #d22121;
+          text-decoration: underline dotted #d22121;
 }
 
 .projectsSkills {

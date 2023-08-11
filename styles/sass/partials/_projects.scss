@@ -28,7 +28,7 @@
 
         .viewLinks {
             a {
-                font-weight: 400;
+                font-weight: 600;
             }
 
             a:hover,
@@ -39,12 +39,12 @@
     }
 
     .googleDrive {
-        text-decoration: underline dotted variables.$red;
+        font-weight: 600;
     }
 
     .googleDrive:hover,
     .googleDrive:focus {
-        text-decoration: none;
+        text-decoration: underline dotted variables.$red;
     }
 }
 
