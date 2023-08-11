@@ -1,17 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&family=Roboto+Condensed:wght@400;700&display=swap');
 // colours
 
-$primaryPink: rgb(235, 188, 195);
 $white: white;
-$background: #f5f3f3;
-// $background: #e3e2df;
+
+$background: white;
 
 $red: #6e3475;
-// $red: #3500d3;
 
 
 $hamburger: rgba(0, 0, 0, 0.5);
 
 // fonts
-$h1: 'Inter', sans-serif;
+$h1: 'Roboto Condensed', sans-serif;
 $body: 'Inter', sans-serif;

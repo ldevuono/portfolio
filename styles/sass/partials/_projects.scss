@@ -1,13 +1,12 @@
 @use './variables';
 
 .projects {
-    margin-top: 70px;
+    margin-top: 20px;
     margin-bottom: 70px;
 }
 
 .projectsList {
     li {
-        width: 90%;
         margin: 20px auto;
         padding: 20px;
         display: flex;
@@ -24,7 +23,7 @@
     }
 
     .projectDesc {
-        width: 60%;
+        width: 50%;
 
         .viewLinks {
             a {

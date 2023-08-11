@@ -5,23 +5,22 @@ html {
     font-family: variables.$body;
 }
 
-h1 {
-    font-size: 4rem;
-    font-family: variables.$h1;
-    text-transform: lowercase;
-    transition: .3s ease;
-    color: variables.$red;
-    line-height: .93;
-    margin-bottom: 5px;
-    font-weight: 600;
-    letter-spacing: .9;
-}
+// h1 {
+//     font-size: 5rem;
+//     font-family: variables.$h1;
+//     text-transform: lowercase;
+//     transition: .3s ease;
+//     color: variables.$red;
+//     line-height: .93;
+//     margin-bottom: 5px;
+//     font-weight: 600;
+//     letter-spacing: .9;
+// }
 
 h2 {
     font-family: variables.$h1;
     font-size: 1.9rem;
     transition: .3s ease;
-    text-transform: lowercase;
     font-weight: 600;
     letter-spacing: .9;
 }
@@ -30,16 +29,14 @@ h3 {
     font-family: variables.$h1;
     font-size: 1.2rem;
     margin-bottom: 10px;
-    text-transform: lowercase;
     font-weight: 600;
 }
 
 .skills h2,
 .contact h2,
 .projects h2 {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     padding-bottom: 20px;
-    border-bottom: 3px solid;
 }
 
 p {
@@ -51,7 +48,7 @@ p {
 
 .navUl a {
     font-family: variables.$h1;
-    text-transform: lowercase;
+    text-transform: uppercase;
     font-weight: 600;
 
 }

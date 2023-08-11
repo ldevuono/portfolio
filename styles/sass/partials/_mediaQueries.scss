@@ -85,7 +85,14 @@
 
     // bio
 
+    .name {
+        width: 200px;
+        margin: 30px auto;
+    }
 
+    .bio {
+        margin-top: 10px;
+    }
 
     .introText {
         h1 {
@@ -108,6 +115,7 @@
             width: 290px;
             margin-right: 0;
             margin-bottom: 20px;
+            align-self: flex-start;
         }
 
         .projectDesc {

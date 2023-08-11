@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&family=Roboto+Condensed:wght@400;700&display=swap");
 html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
@@ -295,27 +295,32 @@ button {
 }
 
 body {
-  background-color: #f5f3f3;
+  background-color: white;
 }
 
 header {
   padding: 10px 0;
 }
 
-.headerBlob {
-  width: 80px;
-  position: absolute;
-  top: 15px;
-  left: 50px;
+.name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 10px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 .navUl {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .navUl li {
   margin: 20px;
@@ -348,43 +353,27 @@ html {
   font-family: "Inter", sans-serif;
 }
 
-h1 {
-  font-size: 4rem;
-  font-family: "Inter", sans-serif;
-  text-transform: lowercase;
-  -webkit-transition: 0.3s ease;
-  transition: 0.3s ease;
-  color: #6e3475;
-  line-height: 0.93;
-  margin-bottom: 5px;
-  font-weight: 600;
-  letter-spacing: 0.9;
-}
-
 h2 {
-  font-family: "Inter", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 1.9rem;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
-  text-transform: lowercase;
   font-weight: 600;
   letter-spacing: 0.9;
 }
 
 h3 {
-  font-family: "Inter", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 1.2rem;
   margin-bottom: 10px;
-  text-transform: lowercase;
   font-weight: 600;
 }
 
 .skills h2,
 .contact h2,
 .projects h2 {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   padding-bottom: 20px;
-  border-bottom: 3px solid;
 }
 
 p {
@@ -393,8 +382,8 @@ p {
 }
 
 .navUl a {
-  font-family: "Inter", sans-serif;
-  text-transform: lowercase;
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
   font-weight: 600;
 }
 
@@ -412,64 +401,91 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   padding-bottom: 20px;
-  border-bottom: 3px solid;
   margin-bottom: 20px;
 }
 .introText h1 {
   margin-top: 70px;
 }
 
-.introImg {
-  width: 100%;
-  margin-top: 20px;
-  -webkit-transition: 0.3s ease;
-  transition: 0.3s ease;
-}
-
-.introFlex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-.introFlex .introText {
-  width: 75%;
-}
-
 .home {
   margin-bottom: 70px;
 }
 .home p {
-  margin-top: 10px;
-  margin-bottom: 8px;
+  margin: 10px auto;
   width: 80%;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
 }
 
+.bio {
+  margin-top: 50px;
+}
 .bio span {
-  font-family: "Inter", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   -webkit-text-decoration: underline dotted #6e3475;
           text-decoration: underline dotted #6e3475;
-  cursor: crosshair;
-}
-.bio span:hover {
-  text-decoration: none;
 }
 
+.purple {
+  width: 200px;
+  height: 200px;
+  background-color: #e7caf2;
+  margin: 30px auto;
+  border-radius: 50%;
+  -webkit-animation: breathing 7s ease-out infinite normal;
+  animation: breathing 7s ease-out infinite normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+@-webkit-keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  25% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  60% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+@keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  25% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  60% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
 .projects {
-  margin-top: 70px;
+  margin-top: 20px;
   margin-bottom: 70px;
 }
 
 .projectsList li {
-  width: 90%;
   margin: 20px auto;
   padding: 20px;
   display: -webkit-box;
@@ -488,7 +504,7 @@ p {
   transition: 0.3s ease;
 }
 .projectsList .projectDesc {
-  width: 60%;
+  width: 50%;
 }
 .projectsList .projectDesc .viewLinks a {
   font-weight: 600;
@@ -508,7 +524,7 @@ p {
 }
 
 .projectsSkills {
-  font-family: "Inter", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 0.8rem;
   margin-top: 10px;
 }
@@ -522,7 +538,7 @@ p {
 }
 
 .contact {
-  margin-top: 70px;
+  margin-top: 20px;
   margin-bottom: 70px;
 }
 .contact a {
@@ -621,6 +637,13 @@ p {
   }
 }
 @media (max-width: 700px) {
+  .name {
+    width: 200px;
+    margin: 30px auto;
+  }
+  .bio {
+    margin-top: 10px;
+  }
   .introText h1 {
     font-size: 2.2rem;
     margin-top: 15%;
@@ -638,6 +661,8 @@ p {
     width: 290px;
     margin-right: 0;
     margin-bottom: 20px;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
   }
   .projectsList .projectDesc {
     width: 100%;

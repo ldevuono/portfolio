@@ -44,16 +44,17 @@ header {
     padding: 10px 0;
 }
 
-.headerBlob {
-    width: 80px;
-    position: absolute;
-    top: 15px;
-    left: 50px;
+
+.name {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    transition: .3s ease;
 }
 
 .navUl {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 
     li {
         margin: 20px;
