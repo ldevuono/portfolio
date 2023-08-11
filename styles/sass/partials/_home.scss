@@ -22,16 +22,21 @@
 
 .home {
     p {
-        margin: 10px auto;
+        margin: 10px 0;
         width: 80%;
         transition: .3s ease;
     }
 
+    h2 {
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+
+    margin-top:20px;
     margin-bottom:70px;
 }
 
 .bio {
-    margin-top: 50px;
 
     span {
         font-family: variables.$h1;
