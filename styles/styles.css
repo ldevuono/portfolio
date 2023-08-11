@@ -295,7 +295,7 @@ button {
 }
 
 body {
-  background-color: #E5DDD2;
+  background-color: #f6f6f6;
 }
 
 header {
@@ -323,8 +323,8 @@ header {
 }
 .navUl li a:hover,
 .navUl li a:focus {
-  -webkit-text-decoration: 2px dotted #BF4A4A underline;
-          text-decoration: 2px dotted #BF4A4A underline;
+  -webkit-text-decoration: 2px dotted #d22121 underline;
+          text-decoration: 2px dotted #d22121 underline;
 }
 
 .hamburger {
@@ -354,9 +354,11 @@ h1 {
   text-transform: lowercase;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
-  color: #BF4A4A;
+  color: #d22121;
   line-height: 0.93;
   margin-bottom: 5px;
+  font-weight: 400;
+  letter-spacing: 0.9;
 }
 
 h2 {
@@ -365,6 +367,8 @@ h2 {
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
   text-transform: lowercase;
+  font-weight: 400;
+  letter-spacing: 0.9;
 }
 
 h3 {
@@ -372,6 +376,7 @@ h3 {
   font-size: 1.2rem;
   margin-bottom: 10px;
   text-transform: lowercase;
+  font-weight: 400;
 }
 
 .skills h2,
@@ -390,6 +395,7 @@ p {
 .navUl a {
   font-family: "Inter", sans-serif;
   text-transform: lowercase;
+  font-weight: 400;
 }
 
 .overlay {
@@ -449,8 +455,8 @@ p {
 
 .bio span {
   font-family: "Inter", sans-serif;
-  -webkit-text-decoration: underline dotted #BF4A4A;
-          text-decoration: underline dotted #BF4A4A;
+  -webkit-text-decoration: underline dotted #d22121;
+          text-decoration: underline dotted #d22121;
   cursor: crosshair;
 }
 .bio span:hover {
@@ -484,13 +490,21 @@ p {
 .projectsList .projectDesc {
   width: 60%;
 }
-.projectsList .projectDesc a {
-  font-weight: bold;
+.projectsList .projectDesc .viewLinks a {
+  font-weight: 400;
 }
-.projectsList .projectDesc a:hover,
-.projectsList .projectDesc a:focus {
-  -webkit-text-decoration: underline dotted #BF4A4A;
-          text-decoration: underline dotted #BF4A4A;
+.projectsList .projectDesc .viewLinks a:hover,
+.projectsList .projectDesc .viewLinks a:focus {
+  -webkit-text-decoration: underline dotted #d22121;
+          text-decoration: underline dotted #d22121;
+}
+.projectsList .googleDrive {
+  -webkit-text-decoration: underline dotted #d22121;
+          text-decoration: underline dotted #d22121;
+}
+.projectsList .googleDrive:hover,
+.projectsList .googleDrive:focus {
+  text-decoration: none;
 }
 
 .projectsSkills {
@@ -540,7 +554,7 @@ p {
 .contactMe i:hover,
 .contactMe i:focus {
   cursor: pointer;
-  color: #BF4A4A;
+  color: #d22121;
 }
 
 @media (max-width: 1080px) {

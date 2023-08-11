@@ -13,6 +13,8 @@ h1 {
     color: variables.$red;
     line-height: .93;
     margin-bottom: 5px;
+    font-weight: 400;
+    letter-spacing: .9;
 }
 
 h2 {
@@ -20,6 +22,8 @@ h2 {
     font-size: 1.9rem;
     transition: .3s ease;
     text-transform: lowercase;
+    font-weight: 400;
+    letter-spacing: .9;
 }
 
 h3 {
@@ -27,6 +31,8 @@ h3 {
     font-size: 1.2rem;
     margin-bottom: 10px;
     text-transform: lowercase;
+    font-weight: 400;
+
 }
 
 .skills h2,
@@ -47,4 +53,6 @@ p {
 .navUl a {
     font-family: variables.$h1;
     text-transform: lowercase;
+    font-weight: 400;
+
 }

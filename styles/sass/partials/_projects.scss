@@ -26,14 +26,25 @@
     .projectDesc {
         width: 60%;
 
-        a {
-            font-weight: bold;
-        }
+        .viewLinks {
+            a {
+                font-weight: 400;
+            }
 
-        a:hover,
-        a:focus {
-            text-decoration: underline dotted variables.$red;
+            a:hover,
+            a:focus {
+                text-decoration: underline dotted variables.$red;
+            }
         }
+    }
+
+    .googleDrive {
+        text-decoration: underline dotted variables.$red;
+    }
+
+    .googleDrive:hover,
+    .googleDrive:focus {
+        text-decoration: none;
     }
 }
 
