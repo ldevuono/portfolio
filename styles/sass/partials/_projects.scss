@@ -14,6 +14,10 @@
         border-radius: 30px;
     }
 
+    .firstProj {
+        padding-top: 0;
+    }
+
     .projectImg {
         margin-right: 30px;
         width: 400px;
@@ -27,7 +31,8 @@
 
         .viewLinks {
             a {
-                font-weight: 600;
+                font-weight: 700;
+                font-size: 18px;
             }
 
             a:hover,
@@ -38,7 +43,7 @@
     }
 
     .googleDrive {
-        font-weight: 600;
+        font-weight: 700;
     }
 
     .googleDrive:hover,

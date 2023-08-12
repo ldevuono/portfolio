@@ -498,6 +498,9 @@ p {
           align-items: center;
   border-radius: 30px;
 }
+.projectsList .firstProj {
+  padding-top: 0;
+}
 .projectsList .projectImg {
   margin-right: 30px;
   width: 400px;
@@ -509,7 +512,8 @@ p {
   width: 50%;
 }
 .projectsList .projectDesc .viewLinks a {
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 18px;
 }
 .projectsList .projectDesc .viewLinks a:hover,
 .projectsList .projectDesc .viewLinks a:focus {
@@ -517,7 +521,7 @@ p {
           text-decoration: underline dotted #6e3475;
 }
 .projectsList .googleDrive {
-  font-weight: 600;
+  font-weight: 700;
 }
 .projectsList .googleDrive:hover,
 .projectsList .googleDrive:focus {
