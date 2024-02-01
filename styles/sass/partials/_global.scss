@@ -24,6 +24,7 @@ ul {
 img {
     max-width: 100%;
     display: block;
+    margin-bottom: 10px;
 }
 
 a {
@@ -83,4 +84,17 @@ header {
 
 html {
     scroll-behavior: smooth;
+}
+
+#portfolio {
+    a {
+        color: variables.$red;
+        text-decoration: none
+    }
+
+    a:hover,
+    a:focus {
+        text-decoration: 2px dotted variables.$red underline;
+    }
+
 }
