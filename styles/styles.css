@@ -353,6 +353,12 @@ html {
   color: #6e3475;
   text-decoration: none;
 }
+#portfolio p {
+  margin: 10px 0;
+  width: 80%;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
 #portfolio a:hover,
 #portfolio a:focus {
   -webkit-text-decoration: 2px dotted #6e3475 underline;
@@ -598,7 +604,8 @@ p {
 }
 
 @media (max-width: 1080px) {
-  .home p {
+  .home p,
+  #portfolio p {
     width: 100%;
   }
 }
