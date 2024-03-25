@@ -296,7 +296,7 @@ button {
 }
 
 body {
-  background-color: white;
+  background-color: rgb(246, 246, 246);
 }
 
 header {
@@ -329,8 +329,8 @@ header {
 }
 .navUl li a:hover,
 .navUl li a:focus {
-  -webkit-text-decoration: 2px dotted #6e3475 underline;
-          text-decoration: 2px dotted #6e3475 underline;
+  -webkit-text-decoration: 2px dotted #a927b7 underline;
+          text-decoration: 2px dotted #a927b7 underline;
 }
 
 .hamburger {
@@ -350,7 +350,7 @@ html {
 }
 
 #portfolio a {
-  color: #6e3475;
+  color: #a927b7;
   text-decoration: none;
 }
 #portfolio p {
@@ -361,8 +361,8 @@ html {
 }
 #portfolio a:hover,
 #portfolio a:focus {
-  -webkit-text-decoration: 2px dotted #6e3475 underline;
-          text-decoration: 2px dotted #6e3475 underline;
+  -webkit-text-decoration: 2px dotted #ee1212 underline;
+          text-decoration: 2px dotted #ee1212 underline;
 }
 
 html {
@@ -455,8 +455,8 @@ p {
 
 .bio span {
   font-family: "Roboto Condensed", sans-serif;
-  -webkit-text-decoration: underline dotted #6e3475;
-          text-decoration: underline dotted #6e3475;
+  -webkit-text-decoration: underline dotted #a927b7;
+          text-decoration: underline dotted #a927b7;
 }
 
 .purple {
@@ -541,16 +541,16 @@ p {
 }
 .projectsList .projectDesc .viewLinks a:hover,
 .projectsList .projectDesc .viewLinks a:focus {
-  -webkit-text-decoration: underline dotted #6e3475;
-          text-decoration: underline dotted #6e3475;
+  -webkit-text-decoration: underline dotted #a927b7;
+          text-decoration: underline dotted #a927b7;
 }
 .projectsList .googleDrive {
   font-weight: 700;
 }
 .projectsList .googleDrive:hover,
 .projectsList .googleDrive:focus {
-  -webkit-text-decoration: underline dotted #6e3475;
-          text-decoration: underline dotted #6e3475;
+  -webkit-text-decoration: underline dotted #a927b7;
+          text-decoration: underline dotted #a927b7;
 }
 
 .projectsSkills {
@@ -600,7 +600,7 @@ p {
 .contactMe i:hover,
 .contactMe i:focus {
   cursor: pointer;
-  color: #6e3475;
+  color: #a927b7;
 }
 
 @media (max-width: 1080px) {

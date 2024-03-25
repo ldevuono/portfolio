@@ -89,7 +89,7 @@ html {
 #portfolio {
     a {
         color: variables.$red;
-        text-decoration: none
+        text-decoration: none;
     }
 
     p {
@@ -100,7 +100,7 @@ html {
 
     a:hover,
     a:focus {
-        text-decoration: 2px dotted variables.$red underline;
+        text-decoration: 2px dotted variables.$red2 underline;
     }
 
 }
