@@ -329,8 +329,8 @@ header {
 }
 .navUl li a:hover,
 .navUl li a:focus {
-  -webkit-text-decoration: 2px dotted #a927b7 underline;
-          text-decoration: 2px dotted #a927b7 underline;
+  -webkit-text-decoration: 2px dotted #9933cc underline;
+          text-decoration: 2px dotted #9933cc underline;
 }
 
 .hamburger {
@@ -350,7 +350,7 @@ html {
 }
 
 #portfolio a {
-  color: #a927b7;
+  color: #9933cc;
   text-decoration: none;
 }
 #portfolio p {
@@ -402,7 +402,7 @@ h4 {
 
 p {
   letter-spacing: 0.3px;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
 }
 
 .navUl a {
@@ -455,8 +455,8 @@ p {
 
 .bio span {
   font-family: "Roboto Condensed", sans-serif;
-  -webkit-text-decoration: underline dotted #a927b7;
-          text-decoration: underline dotted #a927b7;
+  -webkit-text-decoration: underline dotted #9933cc;
+          text-decoration: underline dotted #9933cc;
 }
 
 .purple {
@@ -541,16 +541,16 @@ p {
 }
 .projectsList .projectDesc .viewLinks a:hover,
 .projectsList .projectDesc .viewLinks a:focus {
-  -webkit-text-decoration: underline dotted #a927b7;
-          text-decoration: underline dotted #a927b7;
+  -webkit-text-decoration: underline dotted #9933cc;
+          text-decoration: underline dotted #9933cc;
 }
 .projectsList .googleDrive {
   font-weight: 700;
 }
 .projectsList .googleDrive:hover,
 .projectsList .googleDrive:focus {
-  -webkit-text-decoration: underline dotted #a927b7;
-          text-decoration: underline dotted #a927b7;
+  -webkit-text-decoration: underline dotted #9933cc;
+          text-decoration: underline dotted #9933cc;
 }
 
 .projectsSkills {
@@ -600,7 +600,7 @@ p {
 .contactMe i:hover,
 .contactMe i:focus {
   cursor: pointer;
-  color: #a927b7;
+  color: #9933cc;
 }
 
 @media (max-width: 1080px) {
