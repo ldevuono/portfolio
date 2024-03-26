@@ -103,4 +103,11 @@ html {
         text-decoration: 2px dotted variables.$red2 underline;
     }
 
+    .projectImg {
+        margin-right: 30px;
+        width: 400px;
+        position: relative;
+        transition: .3s ease;
+
+    }
 }

@@ -296,7 +296,7 @@ button {
 }
 
 body {
-  background-color: rgb(246, 246, 246);
+  background-color: white;
 }
 
 header {
@@ -329,8 +329,8 @@ header {
 }
 .navUl li a:hover,
 .navUl li a:focus {
-  -webkit-text-decoration: 2px dotted #9933cc underline;
-          text-decoration: 2px dotted #9933cc underline;
+  -webkit-text-decoration: 2px dotted #FF5258 underline;
+          text-decoration: 2px dotted #FF5258 underline;
 }
 
 .hamburger {
@@ -350,7 +350,7 @@ html {
 }
 
 #portfolio a {
-  color: #9933cc;
+  color: #FF5258;
   text-decoration: none;
 }
 #portfolio p {
@@ -361,8 +361,15 @@ html {
 }
 #portfolio a:hover,
 #portfolio a:focus {
-  -webkit-text-decoration: 2px dotted #ee1212 underline;
-          text-decoration: 2px dotted #ee1212 underline;
+  -webkit-text-decoration: 2px dotted #FF58B0 underline;
+          text-decoration: 2px dotted #FF58B0 underline;
+}
+#portfolio .projectImg {
+  margin-right: 30px;
+  width: 400px;
+  position: relative;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 html {
@@ -455,14 +462,14 @@ p {
 
 .bio span {
   font-family: "Roboto Condensed", sans-serif;
-  -webkit-text-decoration: underline dotted #9933cc;
-          text-decoration: underline dotted #9933cc;
+  -webkit-text-decoration: underline dotted #FF5258;
+          text-decoration: underline dotted #FF5258;
 }
 
 .purple {
   width: 200px;
   height: 200px;
-  background-color: #e7caf2;
+  background-color: #FF58B0;
   margin: 30px auto;
   border-radius: 50%;
   -webkit-animation: breathing 7s ease-out infinite normal;
@@ -541,16 +548,16 @@ p {
 }
 .projectsList .projectDesc .viewLinks a:hover,
 .projectsList .projectDesc .viewLinks a:focus {
-  -webkit-text-decoration: underline dotted #9933cc;
-          text-decoration: underline dotted #9933cc;
+  -webkit-text-decoration: underline dotted #FF5258;
+          text-decoration: underline dotted #FF5258;
 }
 .projectsList .googleDrive {
   font-weight: 700;
 }
 .projectsList .googleDrive:hover,
 .projectsList .googleDrive:focus {
-  -webkit-text-decoration: underline dotted #9933cc;
-          text-decoration: underline dotted #9933cc;
+  -webkit-text-decoration: underline dotted #FF5258;
+          text-decoration: underline dotted #FF5258;
 }
 
 .projectsSkills {
@@ -600,7 +607,7 @@ p {
 .contactMe i:hover,
 .contactMe i:focus {
   cursor: pointer;
-  color: #9933cc;
+  color: #FF58B0;
 }
 
 @media (max-width: 1080px) {
