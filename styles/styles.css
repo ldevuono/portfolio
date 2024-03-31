@@ -404,7 +404,6 @@ h4 {
 .contact h2,
 .projects h2 {
   margin-bottom: 20px;
-  padding-bottom: 20px;
 }
 
 p {
@@ -464,7 +463,6 @@ p {
 }
 .home h2 {
   margin-bottom: 20px;
-  padding-bottom: 20px;
 }
 
 .bio span {
@@ -672,10 +670,10 @@ p {
             transform: translateY(0);
   }
   h2 {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
   }
   h3 {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
   }
   .skills ul li {
     width: calc(33.3333333333% - 40px);
@@ -692,9 +690,6 @@ p {
   .introText h1 {
     font-size: 2.2rem;
     margin-top: 15%;
-  }
-  .introText h2 {
-    font-size: 1rem;
   }
   .projectsList li {
     -webkit-box-orient: vertical;
