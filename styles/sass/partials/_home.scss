@@ -19,12 +19,19 @@
     }
 }
 
+.subtitle {
+    text-align: center;
+    margin-top: 10px;
+    font-family: variables.$h1;
+    font-size: .9rem;
+    font-style: italic;
+}
 
 .home {
     p {
         margin: 10px 0;
-        width: 80%;
         transition: .3s ease;
+        width: 80%;
     }
 
     h2 {
@@ -37,7 +44,6 @@
 }
 
 .bio {
-
     span {
         font-family: variables.$h1;
         text-decoration: underline dotted variables.$red;
@@ -48,7 +54,7 @@
     width: 200px;
     height: 200px;
     background-color: variables.$red2;
-    margin: 30px auto;
+    margin-top: 50px;
     border-radius: 50%;
     -webkit-animation: breathing 7s ease-out infinite normal;
     animation: breathing 7s ease-out infinite normal;
