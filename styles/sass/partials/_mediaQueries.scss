@@ -86,6 +86,12 @@
             font-size: 2.8rem;
         }
     }
+
+    .harlequin {
+        a {
+            max-width: 100px;
+        }
+    }
 }
 
 
@@ -160,6 +166,15 @@
             width: calc((100%/2) - 40px);
         }
     }
+
+    .harlequin {
+        flex-direction: column;
+
+        a {
+            max-width: 200px;
+        }
+    }
+
 }
 
 

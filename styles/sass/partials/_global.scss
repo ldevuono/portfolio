@@ -51,8 +51,19 @@ header {
     padding: 10px 0;
 }
 
-.technical-writing-samples {
-    max-width: 70%;
+
+.harlequin {
+    display: flex;
+    justify-content: flex-start;
+
+    a {
+        max-width: 150px;
+        margin-right: 5px;
+    }
+
+    img {
+        transition: .3s ease;
+    }
 }
 
 .name {

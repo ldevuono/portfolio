@@ -308,8 +308,21 @@ header {
   padding: 10px 0;
 }
 
-.technical-writing-samples {
-  max-width: 70%;
+.harlequin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+.harlequin a {
+  max-width: 150px;
+  margin-right: 5px;
+}
+.harlequin img {
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 .name {
@@ -694,6 +707,9 @@ p {
   .introText h1 {
     font-size: 2.8rem;
   }
+  .harlequin a {
+    max-width: 100px;
+  }
 }
 @media (max-width: 700px) {
   .name {
@@ -739,6 +755,15 @@ p {
   }
   .skills ul li {
     width: calc(50% - 40px);
+  }
+  .harlequin {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .harlequin a {
+    max-width: 200px;
   }
 }
 @media (max-width: 375px) {
