@@ -308,6 +308,10 @@ header {
   padding: 10px 0;
 }
 
+.technical-writing-samples {
+  max-width: 70%;
+}
+
 .name {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -334,6 +338,11 @@ header {
 }
 .navUl li a:hover,
 .navUl li a:focus {
+  -webkit-text-decoration: 2px dotted #FF5258 underline;
+          text-decoration: 2px dotted #FF5258 underline;
+}
+
+.current-page {
   -webkit-text-decoration: 2px dotted #FF5258 underline;
           text-decoration: 2px dotted #FF5258 underline;
 }
@@ -629,10 +638,8 @@ p {
   .projectsList li {
     width: 100%;
   }
-}
-@media (max-width: 856px) {
-  .introText h1 {
-    font-size: 2.8rem;
+  .technical-writing-samples {
+    max-width: 100%;
   }
 }
 @media (max-width: 900px) {
@@ -681,6 +688,11 @@ p {
   }
   .skills ul li {
     width: calc(33.3333333333% - 40px);
+  }
+}
+@media (max-width: 856px) {
+  .introText h1 {
+    font-size: 2.8rem;
   }
 }
 @media (max-width: 700px) {

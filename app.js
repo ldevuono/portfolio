@@ -28,6 +28,23 @@ menuItems.forEach(
     }
 )
 
+// Get the current URL of the page
+const currentUrl = window.location.href;
+
+// Function to highlight the current page in the menu
+function highlightCurrentPage() {
+    menuItems.forEach(menuItem => {
+        // Check if the href attribute contains the current URL
+        if (menuItem.href === currentUrl || menuItem.href === currentUrl + '/') {
+            menuItem.classList.add('current-page'); // Add a class to highlight the current page
+        }
+    });
+}
+
+// Call the function when the page loads
+window.addEventListener('DOMContentLoaded', highlightCurrentPage);
+
+
 
 
 

@@ -51,6 +51,9 @@ header {
     padding: 10px 0;
 }
 
+.technical-writing-samples {
+    max-width: 70%;
+}
 
 .name {
     display: flex;
@@ -72,6 +75,10 @@ header {
             text-decoration: 2px dotted variables.$red underline;
         }
     }
+}
+
+.current-page {
+    text-decoration: 2px dotted variables.$red underline;
 }
 
 // hamburger button
