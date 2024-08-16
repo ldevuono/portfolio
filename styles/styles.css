@@ -333,6 +333,9 @@ header {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 10px;
+}
+.name a {
+  width: 400px;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
 }
@@ -712,7 +715,7 @@ p {
   }
 }
 @media (max-width: 700px) {
-  .name {
+  .name a {
     width: 200px;
     margin: 10px auto;
   }
