@@ -729,10 +729,13 @@ p {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .projectsList .firstProj {
+    margin-top: 25px;
+  }
   .projectsList .projectImg {
     width: 300px;
     margin-right: 0;
-    margin-bottom: 0;
+    margin-bottom: -30px;
     -ms-flex-item-align: start;
         align-self: flex-start;
   }
