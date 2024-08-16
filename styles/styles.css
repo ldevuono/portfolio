@@ -730,14 +730,15 @@ p {
             flex-direction: column;
   }
   .projectsList .projectImg {
-    width: 290px;
+    width: 300px;
     margin-right: 0;
-    margin-bottom: 20px;
+    margin-bottom: 0;
     -ms-flex-item-align: start;
         align-self: flex-start;
   }
   .projectsList .projectDesc {
     width: 100%;
+    margin-top: 0;
   }
   .projectsList .projectsSkills {
     margin-top: 15px;
