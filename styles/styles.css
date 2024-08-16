@@ -332,12 +332,20 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 10px;
+  margin: 20px 0 10px 0;
 }
 .name a {
   width: 400px;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
+}
+
+.indexName {
+  margin: 30px 0 10px 0;
+}
+
+.portfolioName {
+  margin: 20px 0 0 0;
 }
 
 .navUl {
