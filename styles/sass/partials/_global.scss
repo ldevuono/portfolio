@@ -141,3 +141,23 @@ html {
 
     }
 }
+
+.email {
+    display: flex;
+    justify-content: flex-start;
+
+    a {
+        max-width: 300px;
+        margin-right: 6px;
+        transition: .3s ease;
+
+    }
+
+    img {
+        transition: .3s ease;
+    }
+}
+
+.emailDesc {
+    padding-bottom: 15px;
+}

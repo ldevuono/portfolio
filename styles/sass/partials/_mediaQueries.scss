@@ -97,6 +97,7 @@
 
 
 
+
 @media (max-width:700px) {
 
     // bio
@@ -143,6 +144,14 @@
             margin-top: 15px;
         }
     }
+
+    .email {
+        flex-direction: column;
+
+        a {
+            max-width: 300px;
+        }
+    }
 }
 
 
@@ -180,7 +189,6 @@
             max-width: 200px;
         }
     }
-
 }
 
 
