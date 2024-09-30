@@ -412,7 +412,7 @@ html {
           justify-content: flex-start;
 }
 .email a {
-  max-width: 300px;
+  width: 300px;
   margin-right: 6px;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
