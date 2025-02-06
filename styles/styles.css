@@ -780,6 +780,9 @@ p {
   .email a {
     max-width: 300px;
   }
+  .personalImg {
+    margin-bottom: 30px;
+  }
 }
 @media (max-width: 570px) {
   .introFlex .introText {
