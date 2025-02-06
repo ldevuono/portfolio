@@ -146,14 +146,11 @@ html {
     display: flex;
     justify-content: flex-start;
 
-    a {
-        width: 300px;
-        margin-right: 6px;
-        transition: .3s ease;
-
-    }
 
     img {
+        transition: .3s ease;
+        width: 200px;
+        margin-right: 6px;
         transition: .3s ease;
     }
 }

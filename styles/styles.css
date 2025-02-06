@@ -411,14 +411,11 @@ html {
       -ms-flex-pack: start;
           justify-content: flex-start;
 }
-.email a {
-  width: 300px;
-  margin-right: 6px;
-  -webkit-transition: 0.3s ease;
-  transition: 0.3s ease;
-}
 .email img {
   -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  width: 200px;
+  margin-right: 6px;
   transition: 0.3s ease;
 }
 
