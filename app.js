@@ -47,5 +47,3 @@ window.addEventListener('DOMContentLoaded', highlightCurrentPage);
 
 
 
-
-

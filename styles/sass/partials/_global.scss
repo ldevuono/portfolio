@@ -143,15 +143,17 @@ html {
 }
 
 .email {
-    display: flex;
-    justify-content: flex-start;
+    // display: flex;
+    // justify-content: flex-start;
 
 
     img {
         transition: .3s ease;
-        width: 200px;
+        max-width: 250px;
         margin-right: 6px;
         transition: .3s ease;
+        display: inline;
+        vertical-align: top;
     }
 }
 
