@@ -255,8 +255,7 @@ html {
   border: 0;
   padding: 0;
   white-space: nowrap;
-  -webkit-clip-path: inset(100%);
-          clip-path: inset(100%);
+  clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
@@ -495,10 +494,6 @@ p {
   font-size: 0.9rem;
 }
 
-.home {
-  margin-top: 20px;
-  margin-bottom: 70px;
-}
 .home p {
   margin: 10px 0;
   -webkit-transition: 0.3s ease;
@@ -507,6 +502,10 @@ p {
 }
 .home h2 {
   margin-bottom: 20px;
+}
+.home {
+  margin-top: 20px;
+  margin-bottom: 70px;
 }
 
 .bio span {
@@ -518,7 +517,7 @@ p {
 .purple {
   width: 200px;
   height: 200px;
-  background-color: #F564A9;
+  background-color: #FF0004;
   margin-top: 50px;
   border-radius: 50%;
   -webkit-animation: breathing 7s ease-out infinite normal;
